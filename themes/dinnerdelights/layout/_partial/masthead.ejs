@@ -1,0 +1,37 @@
+<!-- Navigation -->
+<header class="header">
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <% if (theme.navbar_brand){ %>
+                    <a class="navbar-brand" href="<%- config.root %>" title="<%= config.title %>"><img src="<%- theme.navbar_brand %>" alt="<%= config.title %>"/></a>
+                    <% } %>
+            </div>
+
+            <div class="collapse navbar-collapse" id="custom-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+<!--                    <li><a href="#about">About</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li>
+                        <a href="#projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Current</a></li>
+                            <li><a href="#">Upcoming</a></li>
+                        </ul>
+                    </li> -->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- .container -->
+    </nav>
+</header>
+<!-- End Navigation -->
