@@ -1,14 +1,276 @@
 <!DOCTYPE html>
-<html>
-<%- partial('_partial/head') %>
-<body>
-  <div id="top"></div>
-  <%- body %>
-  <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
-  <!-- Scroll-up -->
- <!-- <div class="scroll-up">
-      <a href="#top"><i class="fa fa-angle-up"></i></a>
-  </div> -->
-  <%- partial('_partial/inline-scripts') %>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Dinner Delights</title>
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top" data-spy="scroll">
+    <!--top header-->
+    <header id="home">
+        <!--main-nav-->
+        <div id="main-nav">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand" style="fill:#fff"><img alt="Dinner Delights" src="/images/noun_98939_cc.svg">Dinner Delights</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
+							<span class="sr-only">Toggle</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="ftheme">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#services">services and pricing</a></li>
+                            <li><a href="#menu">menu</a></li>
+                            <li><a href="#faq">faq</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--slider-->
+    <!--    <div id="slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="images/slider/slider1.jpg">
+                <div class="caption">
+                    <h2><span>an awesome website</span></h2>
+                    <h2><span>html theme</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/slider/slider2.jpg">
+                <div class="caption">
+                    <h2><span>yet another slide</span></h2>
+                    <h2><span>html theme</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/slider/slider3.jpg">
+                <div class="caption">
+                    <h2><span>one more slide</span></h2>
+                    <h2><span>html theme</span></h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </li>
+        </ul>
+    </div> -->
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                    <div class="about-heading">
+                        <h2>about</h2>
+                        <p>Welcome to Nights of Dinner Delights!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container about-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>We are all busy all the time but we still need to eat. Dinner Delights offers personal chef services
+                        from weekly meal preparation to monthly freezer meal parties.</p>
+                    <p>After too many nights staring at the fridge with no easy to prepare meals and no time, I started making
+                        freezer meals. With a little bit of early preparation, I had delicious, quick meals to make the busy
+                        nights go a little smoother.</p>
+                    <p>I started Dinner Delights to help your busy nights go a little smoother too!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-md-offset-3">
+                    <div class="service-heading">
+                        <h2>services and pricing</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="services-style-one">
+            <div class="row clearfix">
+                <div class="col-sm-10 col-sm-offset-1 service-container">
+                    <div class="service-block">
+                        <div class="icon-box"><img src="/images/noun_172620_cc.svg" height="100" width="100" alt="" aria-hidden="true" /></div>
+                        <h4>Freezer Meal Parties</h4>
+                        <div class="text">Each month I select a menu of 10-12 meals. You pick any six meals you want to prepare from the menu
+                            and invite some friends over. I do all the shopping and preparation. I will arrive at the party
+                            location an hour before the party to set up. The party lasts about 90 minutes. At the end of
+                            the party, everyone will take home six meals.</div>
+                        <div class="price-container">
+                                <div class="price">
+                                    <div class="price-value">$180</div>
+                                    <div>6 servings of 6 meals</div>
+                                </div>
+                                <div class="price">
+                                    <div class="price-value">$90</div>
+                                    <div>3 servings of 6 meals</div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="service-block">
+                        <div class="icon-box"><img src="/images/noun_649637_cc.svg" height="100" width="100" alt="" aria-hidden="true" /></div>
+                        <h4>Weekly Menu Planning and Grocery Shopping</h4>
+                        <div class="text">In a rut and tired of cooking the same things? We will work together to create a weekly menu based
+                            on your preferences using new recipes, family recipes, or ideas we brainstormed together. Once
+                            the menu is planned, I will do your grocery shopping and deliver it all to your home.</div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="price">
+                                    <div class="price-value">$90</div>
+                                    <div>3 servings of 6 meals</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-block">
+                        <div class="icon-box"><img src="/images/noun_782390_cc.svg" height="100" width="100" alt="" aria-hidden="true" /></div>
+                        <h4>Personal Chef Services</h4>
+                        <div class="text">We work together to create a menu. I can do everything from preparing dinners to making three meals
+                            a day and everything in between.</div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="price">
+                                    <div class="price-value">$90</div>
+                                    <div>3 servings of 6 meals</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="service-footer hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="service-footer-left">
+                            <h3><span>Schedule a party today!</span></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="service-footer-right">
+                            <button class="btn">SCHEDULE NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+    </div>
+    <!--faq-->
+    <div id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact form-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                    <div class="contact-heading">
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="form contactForm">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                                />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email"
+                                />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"
+                                />
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button class="btn btn-default" type="submit">Send Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-footer" class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-left">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="footer-right">
+                        <ul class="list-unstyled list-inline pull-right">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#services">services and pricing</a></li>
+                            <li><a href="#menu">menu</a></li>
+                            <li><a href="#faq">faq</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.inview.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
