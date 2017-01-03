@@ -57,7 +57,7 @@ textarea {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
-	color: #7e7e7e;
+	color: #E5FFFE;
 	border-width: 1px;
 	border-style: solid;
 	padding: 0 15px;
@@ -78,10 +78,10 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	background: rgba(62, 212, 255, 0.5);
+	background: rgba(41, 255, 248, 0.5);
 	border-color: #28FFF7 !important;
 	outline: none;
-	color: #333;
+	color: #000819;
 }
 
 .btn {
@@ -133,7 +133,7 @@ textarea:focus {
 /*Header*/
 /*Top nav left*/
 .top-nav {
-	color: #333;
+	color: #000819;
 	line-height: 40px;
 	border-bottom: 1px solid #28FFF7;
 }
@@ -150,7 +150,7 @@ textarea:focus {
 
 .top-left a {
 	font-size: 16px;
-	color: #333;
+	color: #000819;
 }
 
 .top-left a:hover {
@@ -195,9 +195,9 @@ textarea:focus {
     background-color: rgba(255,255,255,0.9);
     color: #fff;
     z-index:10;
-	-moz-box-shadow: 0 1px 2px #ebebeb;
-	-webkit-box-shadow: 0 1px 2px #ebebeb;
-	box-shadow: 0 5px 5px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 2px #E5FFFE;
+	-webkit-box-shadow: 0 1px 2px #E5FFFE;
+	box-shadow: 0 5px 5px rgba(229, 255, 254,.15);
     transition: all 0.3s;
 }
 
@@ -240,7 +240,7 @@ textarea:focus {
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 30px;
-	color: #555;
+	color: #001440;
 	padding-top: 0;
 	padding-bottom: 0;
 	text-transform: uppercase;
@@ -267,10 +267,6 @@ textarea:focus {
 
 .flexslider {
 	border: 0;
-}
-
-#slider.flexslider .slides > li img {
-	
 }
 
 /*Slider Caption*/
@@ -416,7 +412,7 @@ textarea:focus {
 .section-heading p {
 	margin-top: 20px;
 	line-height: 25px;
-	color: #8e8e8e;
+	color: #E5FFFE;
 	margin-bottom: 50px;
 }
 
@@ -427,7 +423,7 @@ textarea:focus {
 
 #about .about-content {
 	border: 8px solid rgba(40,255,247,0.4);
-	padding: 80px 150px;
+	padding: 80px 80px;
 }
 
 /*Media*/
@@ -455,7 +451,7 @@ textarea:focus {
 #services .service-heading p {
 	margin-top: 20px;
 	line-height: 25px;
-	color: #8e8e8e;
+	color: #E5FFFE;
 	margin-bottom: 50px;
 }
 
@@ -541,7 +537,7 @@ textarea:focus {
 
 #services .service-footer-left p {
 	font-size: 16px;
-	color: #9d9d9d;
+	color: #E5FFFE;
 }
 
 #services .service-footer-right {
@@ -618,39 +614,6 @@ textarea:focus {
 /*Get In Touch*/
 #contact {
 	margin-top: 50px;
-}
-
-#contact .content {
-	margin-top: 50px;
-}
-
-#contact .content .form input {
-	height: 50px;
-	width: 100%;
-	border-color: #ebebeb;
-}
-
-#contact .content .form textarea {
-	width: 100%;
-	height: 180px;
-	border-color: #ebebeb;
-	margin-top: 20px;
-}
-
-#contact .content .form .submit {
-	text-align: center;
-}
-
-#contact .content .form .submit .btn {
-	margin-top: 25px;
-	background-color: transparent;
-	color: #7e7e7e;
-	border-color: #28FFF7;
-}
-
-#contact .content .form .submit .btn:hover {
-	background-color: #28FFF7;
-	color: #fff;
 }
 
 /*Bottom Footer*/
