@@ -50,12 +50,6 @@ img {
 	max-width: 100%;
 }
 
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -92,10 +86,6 @@ textarea:focus {
 
 .btn {
 	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	font-weight: 600;
-	width: 120px;
-	height: 40px;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -110,6 +100,19 @@ textarea:focus {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	outline: none;
+}
+
+.btn-default {
+	color: #5C306B;
+    background-color: transparent;
+    border-color: #5C306B;
+}
+
+.btn-default:hover,
+.btn-default:active {
+	color: #fff;
+	background-color: #5C306B;
+	border-color: #fff;
 }
 
 .cover {
@@ -400,7 +403,7 @@ textarea:focus {
 	height: 12px;
 }
 
-/* Section Headings */
+/* Sections */
 .section-heading {
 	text-align: center;
 }
@@ -457,7 +460,7 @@ textarea:focus {
 }
 
 .services-style-one {
-	background: #E2EFEC;
+	background: #E5FFFE;
 	margin-top: 25px;
 }
 
@@ -561,8 +564,23 @@ textarea:focus {
 }
 
 /*Menu*/
+#menu {
+	margin-top: 50px;
+}
 
+.menu-container {
+	background-color: #E5FFFE;
+	padding: 15px;
+}
+
+.menu-btn-container {
+	display: none;
+	/*margin-top: 15px;*/
+}
 /*FAQ*/
+#faq { 
+	 margin-top: 50px;
+}
 
 /*Contact*/
 .validation {
@@ -599,7 +617,7 @@ textarea:focus {
 
 /*Get In Touch*/
 #contact {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #contact .content {
