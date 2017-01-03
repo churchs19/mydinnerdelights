@@ -1,2 +1,11 @@
-# Header
-#navbar_brand: /images/noun_98632_cc.svg
+# widget behavior
+archive_type: 'monthly'
+show_count: true
+
+# Miscellaneous
+google_analytics: 'UA-74778051-2'
+favicon: /favicon.ico
+twitter_id: 
+google_plus:
+fb_admins:
+fb_app_id:
