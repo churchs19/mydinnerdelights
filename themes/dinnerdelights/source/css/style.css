@@ -467,6 +467,7 @@ textarea:focus {
 
 
 /*About*/
+
 .about-content {
 	border: 8px solid rgba(40, 255, 247, 0.4);
 	padding: 5vw;
@@ -480,7 +481,7 @@ textarea:focus {
 }
 
 .about-content .headshot,
-.about-content .text { 
+.about-content .text {
 	flex: 1 0 100%;
 	padding: 10px;
 }
@@ -493,11 +494,11 @@ textarea:focus {
 	.about-content .headshot {
 		flex: 1 0 33%;
 	}
-
 	.about-content .text {
 		flex: 2 0 66%;
 	}
 }
+
 
 /*Media*/
 
@@ -554,7 +555,9 @@ textarea:focus {
 	align-content: center;
 }
 
+
 /* Small devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
 	.services-style-one .service-block {
 		flex: 1 0 33%;
@@ -602,6 +605,12 @@ textarea:focus {
 	font-weight: bold;
 }
 
+.price .text-sm {
+	font-size: 0.7em;
+	margin-top: 0;
+	color: rgba(255, 255, 255, 0.9);
+}
+
 
 /*Service Footer*/
 
@@ -647,6 +656,7 @@ textarea:focus {
 
 
 /*Menu*/
+
 .menu-container {
 	background-color: #E5FFFE;
 	padding: 15px;
@@ -697,7 +707,9 @@ textarea:focus {
 	display: block;
 }
 
+
 /* Contact */
+
 .contact-container a {
 	line-height: 2.0;
 }
@@ -707,6 +719,8 @@ textarea:focus {
 		font-size: 1.6em;
 	}
 }
+
+
 /*Bottom Footer*/
 
 #bottom-footer {
