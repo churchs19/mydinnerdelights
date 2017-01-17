@@ -296,10 +296,13 @@ textarea:focus {
 	margin: 5px;
 }
 
-.jumbotron .btn-primary {
+.btn-primary {
 	color: #5C306B;
-	margin-top: 100px;
 	text-transform: uppercase;
+}
+
+.jumbotron .btn-primary {
+	margin-top: 100px;
 }
 
 
@@ -710,13 +713,27 @@ textarea:focus {
 
 /* Contact */
 
-.contact-container a {
+.contact-container {
 	line-height: 2.0;
 }
 
+#mc-embedded-subscribe {
+	margin-top: -15px;
+}
+
+#mc_embed_signup {
+	margin-top: 50px;
+}
+
 @media (min-width: 768px) {
-	.contact-container a {
+	.contact-container {
 		font-size: 1.6em;
+	}
+}
+
+@media (min-width: 992px) {
+	#mc_embed_signup {
+		margin-top: 0;
 	}
 }
 
