@@ -2,35 +2,6 @@
 <html lang="en">
 <%- partial('_partial/head') %>
 <body id="top" data-spy="scroll" data-offset="90">
-    <!--top header-->
-    <header id="home">
-        <!--main-nav-->
-        <div id="main-nav">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a href="/" class="navbar-brand" style="fill:#fff"><img alt="Dinner Delights" src="/images/noun_98939_cc.svg">Dinner Delights</a>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ftheme">
-							<span class="sr-only">Toggle</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-                    </div>
-                    <div class="navbar-collapse collapse" id="ftheme">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">home</a></li>
-                            <li><a href="#about">about</a></li>
-                            <li><a href="#services">services and pricing</a></li>
-                            <li><a href="#menu">menu</a></li>
-                            <!--<li><a href="#faq">faq</a></li>-->
-                            <li><a href="#contact">contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
     <%- body %>
     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
     <%- partial('_partial/inline-scripts') %>
