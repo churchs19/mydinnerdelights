@@ -31,6 +31,15 @@ h6,
 	line-height: 1.3;
 }
 
+.menu-archive h1,
+.menu-archive h2,
+.menu-archive h3,
+.menu-archive h4,
+.menu-archive h5,
+.menu-archive h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	text-decoration: none;
 	-moz-transition: all linear .3s;
@@ -665,8 +674,7 @@ textarea:focus {
 }
 
 .menu-btn-container {
-	display: none;
-	/*margin-top: 15px;*/
+	margin-top: 15px;
 }
 
 
