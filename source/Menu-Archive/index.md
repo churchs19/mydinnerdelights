@@ -3,6 +3,19 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## March 2017
+
+* French onion soup
+* Green Chile Chicken Tacos
+* Ham Chicken and Swiss Sandwiches
+* Chicken Tikka Masala
+* Hot Sausage Sandwiches
+* Ham and Broccoli Strata
+* Bacon wrapped pork chops
+* Spaghetti Stuffed Meatball
+* Lomo Saltado
+* Cheeseburger Gnocchi
+
 ## February 2017
 
 * Monterey Chicken
