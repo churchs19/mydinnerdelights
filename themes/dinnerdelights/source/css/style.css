@@ -285,9 +285,10 @@ textarea:focus {
 
 .jumbotron {
 	background-color: #E5FFFE;
-	background-image: url('../images/breakfast-1620583.jpg');
+	background-image: url('../images/DSC_0033-16.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 	height: 80vh;
 	color: #28FFF7;
 	font-family: 'typnic_titling';
