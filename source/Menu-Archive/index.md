@@ -3,6 +3,19 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## April 2017
+
+* Chicken Flautas
+* Cheesy Chicken and Rice
+* Red Pepper Chicken
+* Honey Soy Pork
+* Pork Chops alla Pizzaiola
+* Buffalo Pork Chops
+* Baked Tacos
+* Pizza Burgers
+* Sriracha and Cheddar Juicy Lucy
+* Sausage and Pepper Hash
+
 ## March 2017
 
 * French onion soup

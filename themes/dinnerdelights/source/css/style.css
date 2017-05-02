@@ -762,3 +762,7 @@ textarea:focus {
 #bottom-footer .footer-right ul>li>a:hover {
 	color: #28FFF7;
 }
+
+.monthly-menu-header {
+	font-family: 'Open Sans', sans-serif;
+}
