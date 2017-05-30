@@ -3,6 +3,18 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## May 2017
+
+* Cilantro Grilled Chicken
+* Asparagus Stuffed Chicken
+* BBQ Baby Back Ribs
+* Chicken Burrito Bowls
+* Teriyaki Burger
+* Bacon Cheddar Burger
+* Hawaiian Pork
+* Italian Pork Roast
+* Crustless Bacon Swiss Quiche
+
 ## April 2017
 
 * Chicken Flautas
