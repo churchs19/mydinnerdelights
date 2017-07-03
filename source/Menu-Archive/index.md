@@ -3,6 +3,20 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## June 2017
+
+* Limoncello Chicken
+* Chicken Fajitas
+* Chicken Pesto Burger
+* Pepper Steak
+* Spicy Chipotle Burgers
+* Asian Beef Tacos
+* Balsamic Honey Pulled Pork
+* Herbed Pork Roast
+* Puerto Rican Shredded Pork
+* Spicy Breakfast Sausage
+
+
 ## May 2017
 
 * Cilantro Grilled Chicken
