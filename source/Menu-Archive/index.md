@@ -3,6 +3,19 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## July 2017
+
+* Cheddar Bacon Ranch Burgers
+* Burgers and Bacon Wrapped Jalapeno Poppers
+* Broccoli Beef
+* Lemon Pesto Chicken
+* Italian Chicken and Grilled Pepper Salad
+* Caprese Stuffed Chicken
+* Pork Chops with Blueberry Bourbon BBQ Sauce
+* Asian Pork Wraps
+* Cheddar Stuffed, Bacon Wrapped Hot Dogs
+* Brown Sugar Balsamic Pork
+
 ## June 2017
 
 * Limoncello Chicken
