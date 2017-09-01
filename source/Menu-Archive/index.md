@@ -3,6 +3,19 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## August 2017
+
+* Grilled Flank Steak with Peaches
+* Philly Cheesesteak Stuffed Peppers
+* Cajun Burgers
+* Beef Burger with Pimento Cheese
+* Salsa Verde Chicken
+* Roasted Chicken and Veggies
+* Turkey Burger and Baked Beans
+* Chile Rubbed Pork Chops with Southwestern Black Bean and Corn Salad
+* Pork, Corn and Zucchini Enchiladas
+* Teriyaki Pork
+
 ## July 2017
 
 * Cheddar Bacon Ranch Burgers
