@@ -3,6 +3,19 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+## September 2017
+
+* Slow Cooked Spaghetti
+* Barbacoa Beef
+* Beef Tips and Roasted Red Onions with Balsamic and Honey
+* Chicken Teriyaki
+* Balsamic Chicken and Veggies
+* Hot Ham and Swiss Croissants
+* Green Chile and Cheese Stuffed Pork Chops
+* Curried Pork Burgers
+* Tortellini Arrabbiata
+* Breakfast Stuffed Peppers
+
 ## August 2017
 
 * Grilled Flank Steak with Peaches
