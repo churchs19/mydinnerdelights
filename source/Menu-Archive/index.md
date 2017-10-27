@@ -3,6 +3,21 @@ title: Menu Archive
 date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
+<!-- markdownlint-disable MD002 MD041 -->
+
+## October 2017
+
+* BBQ Bacon Onion Bombs
+* Chili Cheese Burgers
+* Red Wine Roast with Creamy Polenta and Roasted Radishes
+* Honey Lime Chicken with Butternut Squash
+* Apple Cider Pulled Chicken
+* Jamaican Jerk Pork Burger
+* Spicy Pork Burrito Bowls
+* Cuban Sandwiches
+* Pumpkin Coconut Bisque
+* Italian Breakfast Bake
+
 ## September 2017
 
 * Slow Cooked Spaghetti
@@ -54,7 +69,6 @@ sectionClass: menu-archive
 * Herbed Pork Roast
 * Puerto Rican Shredded Pork
 * Spicy Breakfast Sausage
-
 
 ## May 2017
 
@@ -123,4 +137,8 @@ sectionClass: menu-archive
 * Lime Shredded Pork
 * Chicken Chili
 
+<!-- markdownlint-disable MD033 -->
 <a href="/#menu" class="btn btn-primary">Back to Current Menu</a>
+<!-- markdownlint-enable MD033 -->
+
+<!-- markdownlint-enable MD002 MD041 -->

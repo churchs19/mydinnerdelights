@@ -40,6 +40,17 @@ h6,
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1 .exclamation-font,
+h2 .exclamation-font,
+h3 .exclamation-font,
+h4 .exclamation-font,
+h5 .exclamation-font,
+h6 .exclamation-font {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
 a {
 	text-decoration: none;
 	-moz-transition: all linear .3s;
