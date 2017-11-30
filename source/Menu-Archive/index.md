@@ -5,6 +5,20 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## November 2017
+
+* BBQ Bacon Onion Bombs
+* Day Before Roast
+* Asian Five Spice Meatballs
+* Orange Rosemary Chicken
+* Turkey Chili Nachos
+* Sweet and Spicy Bacon Wrapped Chicken
+* Apple Glazed Pork with Cheesy Grits
+* Sausage Cranberry Ragu
+* Sweet Potato Turkey Hash
+* Corn Chowder
+* Chili
+
 ## October 2017
 
 * BBQ Bacon Onion Bombs
