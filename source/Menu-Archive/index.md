@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## December 2017
+
+* Beef Stew
+* Spicy Apple Glazed Meatballs
+* Texas Style Brisket
+* Chicken Taco Soup
+* Honey Sriracha Chicken
+* Jamaican Jerk Chicken
+* Maple Dijon Chicken
+* Cranberry Pork Roast
+* Sausage with Onions and Peppers
+* Parmesan Honey Pork Roast
+
 ## November 2017
 
 * BBQ Bacon Onion Bombs

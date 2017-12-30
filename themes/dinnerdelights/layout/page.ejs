@@ -1,13 +1,13 @@
 <%- partial('_partial/masthead-secondary') %>
-  <div class="container">
-    <h1>
-      <%= page.title %>
-    </h1>
+  <div class="container" class="secondary-page">
     <div class="row">
       <div class="col-xs-12">
         <% if (page.sectionClass) { %>
         <section class="<%- page.sectionClass %>">
         <% } %>
+        <h1>
+          <%= page.title %>
+        </h1>
         <%- page.content %>
         <% if (page.sectionClass) { %>
         </section>

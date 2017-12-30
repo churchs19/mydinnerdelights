@@ -11,25 +11,6 @@ Light Mushroom - #efeeeb - rgb 239, 238, 236
 */
 
 /* Fonts */
-
-@font-face {
-  font-family: "typnic_titling";
-  src: url("../fonts/corradine_fonts_-_typnictitling-webfont.eot");
-  src: url("../fonts/corradine_fonts_-_typnictitling-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/corradine_fonts_-_typnictitling-webfont.woff2")
-      format("woff2"),
-    url("../fonts/corradine_fonts_-_typnictitling-webfont.woff") format("woff"),
-    url("../fonts/corradine_fonts_-_typnictitling-webfont.otf")
-      format("opentype"),
-    url("../fonts/corradine_fonts_-_typnictitling-webfont.ttf")
-      format("truetype"),
-    url("../fonts/corradine_fonts_-_typnictitling-webfont.svg#typnic_titlingtitling")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: "wanderlust_lettersregular";
   src: url("../fonts/cultivated_mind_-_wanderlust_letters-webfont.woff2")
@@ -40,6 +21,16 @@ Light Mushroom - #efeeeb - rgb 239, 238, 236
       format("opentype"),
     url("../fonts/cultivated_mind_-_wanderlust_letters-webfont.ttf")
       format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'local_breweryfour';
+  src: url('../fonts/cultivated_mind_-_local_brewery_four-webfont.woff2') format('woff2'),
+       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.woff') format('woff'),
+       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.otf') format('opentype'),
+       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -69,25 +60,10 @@ h6 {
   line-height: 1.3;
 }
 
-/* .menu-archive h1,
-.menu-archive h2,
-.menu-archive h3,
-.menu-archive h4,
-.menu-archive h5,
-.menu-archive h6 {
-	font-family: 'Open Sans', sans-serif;
+.subheading {
+  color: #e43d2f;
+  font-family: "local_breweryfour";
 }
-
-h1 .exclamation-font,
-h2 .exclamation-font,
-h3 .exclamation-font,
-h4 .exclamation-font,
-h5 .exclamation-font,
-h6 .exclamation-font {
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
-	font-size: 1.3em;
-} */
 
 a {
   text-decoration: none;
@@ -563,10 +539,12 @@ textarea:focus {
 }
 
 /* Sections */
+.section {
+  margin-top: 100px;
+}
 
 .section-heading {
   text-align: center;
-  margin-top: 100px;
 }
 
 .section-heading h2 {
@@ -912,13 +890,22 @@ i.fa.fa-external-link {
 }
 
 .menu-archive {
-  background-color: #efeeeb;
-  padding: 16px;
+  margin-top: 100px;
+}
+
+.menu-archive h1 {
+  text-align: center;
+}
+
+.menu-archive h2 {
+  font-family: "local_breweryfour";
+  color: #e43d2f;
 }
 
 .join-content,
-.menu-content {
+.menu-content,
+.menu-archive {
   border: 8px solid #789b4a;
   background-color: #efeeeb;
-  padding: 5vw;
+  padding: 2vw 5vw 5vw 5vw;
 }
