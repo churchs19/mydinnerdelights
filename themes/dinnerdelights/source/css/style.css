@@ -909,3 +909,39 @@ i.fa.fa-external-link {
   background-color: #efeeeb;
   padding: 2vw 5vw 5vw 5vw;
 }
+
+.photos-section {
+  margin-top: 90px;
+}
+
+.photos-section .grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.photos-section .photo-item {
+  box-sizing: border-box;
+  flex: 0 1 calc(50% - 8px);
+  background-color: #efeeeb;
+  border: 8px solid #efeeeb;
+  margin: 4px;
+}
+
+.photos-section .photo-item img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .photos-section .photo-item {
+    flex: 0 1 calc(33% - 8px);
+  }
+}
+
+@media (min-width: 992px) {
+  .photos-section .photo-item {
+    flex: 0 1 calc(25% - 8px);
+  }
+}
