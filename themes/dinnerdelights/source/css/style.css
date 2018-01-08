@@ -108,10 +108,10 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  background: rgba(41, 255, 248, 0.5);
+  background: #9fcc61(41, 255, 248, 0.5);
   border-color: #789b4a !important;
   outline: none;
-  color: #000819;
+  color: #070606;
 }
 
 .btn {
@@ -168,7 +168,7 @@ textarea:focus {
 /*Top nav left*/
 
 .top-nav {
-  color: #000819;
+  color: #070606;
   line-height: 40px;
   border-bottom: 1px solid #789b4a;
 }
@@ -185,7 +185,7 @@ textarea:focus {
 }
 
 .top-left a {
-  color: #000819;
+  color: #070606;
 }
 
 .top-left a:hover {
@@ -554,7 +554,7 @@ textarea:focus {
 .section-heading p {
   margin-top: 20px;
   line-height: 25px;
-  color: #001440;
+  color: #070606;
   margin-bottom: 50px;
 }
 
