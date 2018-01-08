@@ -81,15 +81,21 @@ img {
   max-width: 100%;
 }
 
+.indicates-required,
+label {
+  display: block;
+  font-size: 16px;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
-  color: #e5fffe;
-  border-width: 1px;
-  border-style: solid;
+  color: #5c534d;
+  background-color: #efeeeb;
+  border: 2px solid #5c534d;
   padding: 0 15px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -108,10 +114,8 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  background: #9fcc61(41, 255, 248, 0.5);
   border-color: #789b4a !important;
   outline: none;
-  color: #070606;
 }
 
 .btn {
@@ -831,11 +835,22 @@ textarea:focus {
 }
 
 #mc-embedded-subscribe {
-  margin-top: -15px;
+  margin-top: 16px;
 }
 
 #mc_embed_signup {
   margin-top: 50px;
+}
+
+input.mce_inline_error {
+  border: 2px solid #e43d2f !important;
+}
+
+div.mce_inline_error {
+  color: #e43d2f !important;
+  background: none !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
 }
 
 @media (min-width: 768px) {
