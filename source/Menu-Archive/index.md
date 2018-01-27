@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## January 2018
+
+* Smothered Chile Colorado Burritos
+* Ethan’s Noodles (aka Beef Satay Noodles)
+* Sweet and Sour BBQ Meatballs
+* Chicken and Noodles
+* Honey Garlic Chicken
+* Southwestern Chicken with Cilantro Lime Rice
+* Cilantro Lime Pork
+* Peach Bourbon Pork
+* Hamballs
+* Black Bean Soup
+
 ## December 2017
 
 * Beef Stew
