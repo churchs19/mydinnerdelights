@@ -784,6 +784,36 @@ textarea:focus {
   margin-top: 15px;
 }
 
+.menu-image {
+  flex: 0 0 30%;
+  margin-right: 20px;
+  max-height: 250px;
+}
+
+.menu-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.menu-list li h4 {
+  font-family: 'local_breweryfour', sans-serif;
+  font-size: 26px;
+  color: #789b4a;
+}
+
+.menu-list li:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.menu-list li:nth-child(2n) .menu-image,
+.menu-list li:nth-child(2n) .menu-image-placeholder {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
 @media (min-width: 768px) {
   .menu-container {
     padding: 15px;
