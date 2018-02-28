@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## February 2018
+
+* Brown Sugar Bourbon Chicken
+* Creole Chicken and Sausage
+* Roasted Tomato Soup
+* Hot Italian Sandwiches
+* Honey Soy Pork
+* Bacon Cheddar Turnovers and Scrambled Eggs
+* Taco Stuffed Peppers
+* Monterey Chicken
+* Mozzarella Stuffed Turkey Pesto Meatballs
+* Beef and Noodles
+
 ## January 2018
 
 * Smothered Chile Colorado Burritos

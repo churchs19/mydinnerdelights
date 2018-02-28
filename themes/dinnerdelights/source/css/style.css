@@ -970,6 +970,8 @@ i.fa.fa-external-link {
 .photos-section .photo-item {
   box-sizing: border-box;
   flex: 0 1 calc(50% - 8px);
+  display: flex;
+  align-items: center;
   background-color: #efeeeb;
   border: 8px solid #efeeeb;
   margin: 4px;
