@@ -786,13 +786,16 @@ textarea:focus {
 
 .menu-image {
   flex: 0 0 30%;
-  margin-right: 20px;
   max-height: 250px;
+}
+
+.menu-list {
+  padding-left: 0;
 }
 
 .menu-list li {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 15px 0;
@@ -804,19 +807,27 @@ textarea:focus {
   color: #789b4a;
 }
 
-.menu-list li:nth-child(2n) {
-  flex-direction: row-reverse;
-}
-
-.menu-list li:nth-child(2n) .menu-image,
-.menu-list li:nth-child(2n) .menu-image-placeholder {
-  margin-left: 20px;
-  margin-right: 0;
-}
-
 @media (min-width: 768px) {
   .menu-container {
     padding: 15px;
+  }
+
+  .menu-list li {
+    flex-direction: row;
+  }
+
+  .menu-image {
+    margin-right: 20px;    
+  }
+
+  .menu-list li:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+  
+  .menu-list li:nth-child(2n) .menu-image,
+  .menu-list li:nth-child(2n) .menu-image-placeholder {
+    margin-left: 20px;
+    margin-right: 0;
   }
 }
 
