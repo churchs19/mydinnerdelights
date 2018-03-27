@@ -1091,7 +1091,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #010807;
+  color: #262220;
   background-color: #ffffff;
 }
 input,
@@ -1103,7 +1103,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #5c306b;
+  color: #602650;
   text-decoration: none;
 }
 a:hover,
@@ -3405,7 +3405,7 @@ fieldset[disabled] .btn-danger.focus {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #5c306b;
+  color: #602650;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4010,7 +4010,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eafcfa;
-  border-color: #5c306b;
+  border-color: #602650;
 }
 .nav .nav-divider {
   height: 1px;
@@ -4730,7 +4730,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #5c306b;
+  color: #602650;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4949,7 +4949,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #5c306b;
+  color: #602650;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
@@ -5024,11 +5024,11 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #5c306b;
+  border-color: #602650;
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #010807;
+  color: #262220;
 }
 .alert {
   padding: 15px;
