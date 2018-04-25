@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## April 2018
+
+* Chicken Flautas
+* Cheesy Chicken and Rice
+* Red Pepper Chicken
+* Buffalo Pork Chops
+* Teriyaki Pork
+* Carnitas
+* Sriracha and Cheddar Juicy Lucy
+* Italian Beef Sandwiches
+* Ribollita
+* Sweet Potato and Chickpea Curry
+
 ## March 2018
 
 * Orange Chicken
