@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## May 2018
+
+* Chicken Burrito Bowls
+* Honey Chicken Tenders
+* Mediterranean Turkey Burger
+* Balsamic Honey Pulled Pork
+* Jalapeno Pineapple Pork Tacos
+* Italian Pork Roast
+* Pizza Burgers
+* Philly Stuffed Peppers
+* Creamy Mozzarella Tomato Tortellini
+* Baked Denver Omelet
+
 ## April 2018
 
 * Chicken Flautas
