@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## June 2018
+
+* Limoncello Chicken
+* Turkey Pesto Burger
+* Chicken Fajitas
+* Chicken Fried Cauli-rice
+* Asian Beef Tacos
+* Mozzarella Stuffed Meatball Burgers
+* Puerto Rican Shredded Pork with Black Beans
+* Garlic Ginger Pork
+* Pork Egg Roll Bowl
+* Veggie Loaded Black Beans and Rice
+
 ## May 2018
 
 * Chicken Burrito Bowls
