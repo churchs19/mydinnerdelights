@@ -5,6 +5,19 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## July 2018
+
+* Cheddar Bacon Ranch Burgers
+* Broccoli Beef
+* Lemon Pesto Chicken
+* Firecracker Chicken
+* Western Chicken Burger
+* Pork Chops with Blueberry Bourbon BBQ Sauce
+* Chile Rubbed Pork Chops with Black Bean Salad
+* Tacos al Pastor
+* Ranch Pork Chops
+* Cheddar Stuffed, Bacon Wrapped Hot Dogs
+
 ## June 2018
 
 * Limoncello Chicken
