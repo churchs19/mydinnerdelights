@@ -5,6 +5,24 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## August 2018
+
+* Brown Sugar Balsamic Pork
+* Pesto Parmesan Pork Chops
+* Pork, Corn, and Zucchini Enchiladas
+* Cajun Burgers
+* Flank Steak and Peaches
+* Salsa Verde Chicken Tacos
+* Roasted Chicken and Veggies
+* Turkey Apple Cheddar Burgers
+* Sausage and Cheese Bubbles
+* Veggie Pasta
+* Three Sisters Enchilada Bowls
+* Chickpea and Quinoa Bowls
+* Roasted Chickpea Gyros
+* Sweet Potato and Black Bean Tacos
+* Spicy Thai Noodles
+
 ## July 2018
 
 * Cheddar Bacon Ranch Burgers
