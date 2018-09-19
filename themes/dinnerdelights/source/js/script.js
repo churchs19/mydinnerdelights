@@ -89,4 +89,16 @@ $(document).ready(function() {
       });
     }
   });
+
+  $(document).ready(function() {
+    $(".carousel").carousel({
+      interval: 15000
+    });
+    $(".carousel-control.right").on("click", function() {
+      $(".carousel").carousel("next");
+    });
+    $(".carousel-control.left").on("click", function() {
+      $(".carousel").carousel("prev");
+    });    
+  });
 });

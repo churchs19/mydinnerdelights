@@ -26,11 +26,15 @@ Light Mushroom - #efeeeb - rgb 239, 238, 236
 }
 
 @font-face {
-  font-family: 'local_breweryfour';
-  src: url('../fonts/cultivated_mind_-_local_brewery_four-webfont.woff2') format('woff2'),
-       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.woff') format('woff'),
-       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.otf') format('opentype'),
-       url('../fonts/cultivated_mind_-_local_brewery_four-webfont.ttf') format('truetype');
+  font-family: "local_breweryfour";
+  src: url("../fonts/cultivated_mind_-_local_brewery_four-webfont.woff2")
+      format("woff2"),
+    url("../fonts/cultivated_mind_-_local_brewery_four-webfont.woff")
+      format("woff"),
+    url("../fonts/cultivated_mind_-_local_brewery_four-webfont.otf")
+      format("opentype"),
+    url("../fonts/cultivated_mind_-_local_brewery_four-webfont.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -783,6 +787,44 @@ textarea:focus {
   margin-top: 15px;
 }
 
+.carousel-control.right,
+.carousel-control.left {
+  background: none;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  color: #789b4a;
+}
+
+.carousel .carousel-indicators {
+  bottom: -5px;
+}
+
+.carousel .carousel-indicators li {
+  border: 1px solid #789b4a;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #789b4a;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel .carousel-indicators {
+    bottom: -10px;
+  }
+
+  .carousel-control.right {
+    right: -15%;
+  }
+  
+  .carousel-control.left {
+    left: -15%;
+  }
+}
+
 .menu-image {
   flex: 0 0 30%;
   max-height: 250px;
@@ -801,7 +843,7 @@ textarea:focus {
 }
 
 .menu-list li h4 {
-  font-family: 'local_breweryfour', sans-serif;
+  font-family: "local_breweryfour", sans-serif;
   font-size: 26px;
   color: #789b4a;
 }
@@ -821,14 +863,14 @@ textarea:focus {
   }
 
   .menu-image {
-    margin-right: 20px;    
+    margin-right: 20px;
   }
 
   .menu-list li:nth-child(2n) {
     flex-direction: row-reverse;
     justify-content: flex-end;
   }
-  
+
   .menu-list li:nth-child(2n) .menu-image,
   .menu-list li:nth-child(2n) .menu-image-placeholder {
     margin-left: 20px;
