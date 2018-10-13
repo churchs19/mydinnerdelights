@@ -5,6 +5,25 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## September 2018
+
+* Chicken Teriyaki (Stovetop)
+* Balsamic Chicken and Veggies (Stovetop)
+* Squash and Quinoa Soup (Slow cooker)
+* Cilantro Lime Chicken (Stovetop)
+* Hot Ham and Swiss Croissants (Oven)
+* Green Chile and Cheese Stuffed Pork Chops (Oven)
+* Italian Stuffed Zucchini (Stovetop then oven)
+* Barbacoa Beef (Slow cooker)
+* Beef Tips and Roasted Veggies (Oven)
+* Tortellini Arrabbiata (Stovetop)
+* Vegan Squash and Quinoa Soup (Slow cooker)
+* Calabacita Tacos (Stovetop)
+* Roasted Veggies with Orzo (Oven and stovetop)
+* Three Tomato Risotto (Stovetop)
+* Vegan Italian Stuffed Zucchini (Stovetop then oven)
+* Vegetable Satay (Grill or stovetop)
+
 ## August 2018
 
 * Brown Sugar Balsamic Pork
