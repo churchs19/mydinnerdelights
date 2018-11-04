@@ -5,6 +5,23 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## October 2018
+
+* BBQ Bacon Onion Bombs (Oven)
+* Three Bean Chili with Sausage (Slow cooker)
+* Red Wine Roast with Creamy Polenta and Roasted Radishes (Slow cooker)
+* Italian Breakfast Bake (Oven)
+* Honey Lime Chicken with Butternut Squash (Slow cooker)
+* Apple Cider Pulled Chicken (Slow cooker)
+* Spicy Pork Burrito Bowls (Slow cooker)
+* Cuban Sandwiches (Slow cooker)
+* Penne alla Vodka (Stovetop)
+* Creamy Pumpkin Soup (Stovetop)
+* Three Bean Chili (Slow cooker)
+* BBQ Tacos (Stovetop)
+* Chickpea and Eggplant Curry (Stovetop)
+* Peanut and Veggie Noodles (Stovetop)
+
 ## September 2018
 
 * Chicken Teriyaki (Stovetop)

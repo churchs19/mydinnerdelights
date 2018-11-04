@@ -34,11 +34,11 @@ $(document).ready(function() {
   });
 
   //Slider
-  // $('.flexslider').flexslider({
-  // 	animation: "fade",
-  // 	directionNav: false,
-  // 	pauseOnAction: false,
-  // });
+  $(".flexslider").flexslider({
+    pauseOnAction: true,
+    pauseOnHover: true,
+    animation: "slide"
+  });
 
   // var containerPosition = $('.container').offset();
   // var positionPad = containerPosition.left + 15;
@@ -90,15 +90,15 @@ $(document).ready(function() {
     }
   });
 
-  $(document).ready(function() {
-    $(".carousel").carousel({
-      interval: 15000
-    });
-    $(".carousel-control.right").on("click", function() {
-      $(".carousel").carousel("next");
-    });
-    $(".carousel-control.left").on("click", function() {
-      $(".carousel").carousel("prev");
-    });    
-  });
+  // $(document).ready(function() {
+  //   $(".carousel").carousel({
+  //     interval: 15000
+  //   });
+  //   $(".carousel-control.right").on("click", function() {
+  //     $(".carousel").carousel("next");
+  //   });
+  //   $(".carousel-control.left").on("click", function() {
+  //     $(".carousel").carousel("prev");
+  //   });
+  // });
 });
