@@ -787,6 +787,30 @@ textarea:focus {
   margin-top: 15px;
 }
 
+.flexslider .slides {
+  background: #efeeeb;
+}
+
+.flex-direction-nav a,
+.flex-direction-nav a:before {
+  height: 44px;
+  color: #789b4a;
+}
+
+.flex-control-paging li a {
+  background: #8C9C78;
+  background: rgba(120, 156, 74, 0.5);
+}
+.flex-control-paging li a:hover {
+  background: #809C5D;
+  background: rgba(120, 156, 74, 0.7);
+}
+.flex-control-paging li a.flex-active {
+  background: #789b4a;
+  background: rgba(120, 156, 74, 0.9);
+  cursor: default;
+}
+
 .carousel-control.right,
 .carousel-control.left {
   background: none;
@@ -819,7 +843,7 @@ textarea:focus {
   .carousel-control.right {
     right: -15%;
   }
-  
+
   .carousel-control.left {
     left: -15%;
   }
