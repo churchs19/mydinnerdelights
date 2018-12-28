@@ -5,6 +5,41 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## December 2018
+
+* Baked French Toast with Praline Topping (Oven)
+* Orange Rosemary Chicken (Stovetop)
+* Honey Sriracha Chicken (Stovetop)
+* French Onion Chicken (Stovetop)
+* Parmesan Honey Pork Roast (Slow cooker)
+* Spicy Apple Glazed Meatballs (Slow cooker)
+* Ropa Vieja (Slow Cooker)
+* Stuffed Pepper Soup (Stovetop)
+* Taco Soup (Slow cooker)
+* Butter(less) Chickpeas (Stovetop)
+* Breakfast Skillet (Stovetop)
+* Smoky Sweet Potato and Chickpea Stew (Slow Cooker)
+* Couscous Casserole (Oven)
+* Honey Lime Ginger Pork (Slow Cooker)
+
+## November 2018
+
+* Sweet and Spicy Bacon Wrapped Chicken (Baked)
+* Shredded Mexican Chicken with Rice (Slow Cooker)
+* Chicken with Sun Dried Tomatoes and Spinach (Baked)
+* Sweet Potato Turkey Hash (Stovetop)
+* Asian Five Spice Meatballs (Slow cooker)
+* Day Before Roast (Slow cooker)
+* Apple Glazed Pork with Cheesy Grits (Slow cooker)
+* Sausage Cranberry Ragu (Stovetop)
+* Pork Chops with Cider Pan Sauce (Stovetop)
+* Corn Chowder (Slow cooker or stovetop)
+* Black Bean and Butternut Squash Stew (Slow cooker or stovetop)
+* Eggplant Sauce with Pasta (Stovetop)
+* Golden Coconut Lentil Soup (Stovetop)
+* Harissa Veggie Bowl (Oven)
+* Roasted Veggie Tacos (Oven)
+
 ## October 2018
 
 * BBQ Bacon Onion Bombs (Oven)
