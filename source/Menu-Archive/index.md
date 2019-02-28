@@ -5,6 +5,64 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## February 2019
+
+* Monterey Chicken
+  * Chicken breasts topped with a sweet and tangy homemade BBQ sauce, cheddar and bacon. Comes with veggies. (Oven)
+* Brown Sugar Bourbon Chicken
+  * A great meal for a busy night. Baked chicken is topped with a sweet sauce and served with rice and veggies. (Oven)
+* Creole Chicken and Sausage
+  * Celebrate Mardi Gras in Iowa! A Cajun inspired dish filled with veggies, chicken and sausage. Served over rice. (Slow cooker)
+* Mozzarella Stuffed Turkey Pesto Meatballs
+  * Back by popular demand! Turkey pesto meatballs filled with mozzarella and baked to perfection. Served with Awesome bread and veggies. (Oven)
+* Hot Italian Sandwiches
+  * A great pizza inspired sandwich! A trio of meats and duo of cheeses are baked until melty good. Comes with veggies. (Oven)
+* Bacon Cheddar Turnovers and Scrambled Eggs
+  * Puff pastry is stuffed with bacon and cheddar then baked until golden brown. Serve it with veggie loaded scrambled eggs. The perfect breakfast for dinner choice! (Oven)
+* Beef Fajita Quesadillas
+  * Our family lives on quesadillas. This is a great way to get some meat and veggies into a family favorite. (Stovetop)
+* Beef and Noodles
+  * Egg noodles are topped with beef that is slow cooked in a savory sauce. Perfect for a cold night! (Slow cooker)
+* Roasted Tomato Soup
+  * My favorite tomato soup! Tomatoes, onions and garlic roasted until caramelized, then blended with a little cream for just the right creamy touch. You will need a blender, food processor, or immersion blender. (Oven)
+* Italian Rice
+  * Sautéed veggies and rice make for a delicious and quick dinner. (Stovetop)
+* Sweet and Savory Asian Pork Chops
+  * Delicious sweet and savory pork chops served with veggies and rice. (Stovetop)
+* Italian Beef and Rice
+  * A one dish wonder. Beef, rice, veggies, and cheese mixed together for a delicious meal! (Stovetop)
+* Roasted Cauliflower Burritos
+  * Seasoned, roasted cauliflower and refried beans make a great burrito! (Oven)
+* Hearty Vegetable Lentil Soup
+  * A great bowl of soup for a chilly winter night. (Stovetop)
+* Roasted Gnocchi and Veggies
+  * I love sheet pan meals. Delicious potato dumplings are roasted with veggies for a filling dinner. (Oven)
+* Vegan Jambalaya
+  * Have dinner ready for your Mardi Gras celebration! Veggies, rice and Cajun seasonings make a great dinner. (Stovetop)
+
+## January 2019
+
+* Chicken and Noodles
+  * A comfort food favorite! Chicken slow cooked in seasoned broth. Add egg noodles and corn and you have a great meal for a chilly day. (Slow cooker)
+* Honey Garlic Chicken
+  * A quick, flavorful meal for a busy night. Diced chicken is topped with a sweet garlic and herb sauce and served with rice and veggies. (Stovetop)
+* Southwestern Chicken with Cilantro Lime Rice
+  * Seasoned chicken and veggies served over flavorful rice. Can be made vegan. (Stovetop)
+* Cilantro Lime Pork
+  * I love pork and citrus together. This time we throw in some cilantro and cumin and at the end of a long day, you will have amazing tacos ready to eat. Comes with corn tortillas and cheese. (Slow cooker)
+* Ham balls
+  * My great-aunt’s ham balls brought to you! Nothing is better than an old family recipe and I am so excited to share it with you! Comes with veggies. (Slow cooker)
+* Shaksuka
+  * Layer sausage or mushrooms, veggies, spices and tomatoes for a delicious breakfast for dinner! (Stovetop)
+* Asian Beef and Peppers
+  * Ground beef or mushrooms and peppers cooked in a savory Asian flavored sauce. Served over rice. (Stovetop)
+* Ethan’s Noodles (aka Beef Satay Noodles)
+  * Rice noodles, ground beef (or not) and veggies tossed in a peanut sauce. This is my son’s favorite meal. Can be made vegan. (Stovetop)
+* Smothered Chile Colorado Burritos
+  * A spicy way to start your year! Seasoned beef and beans fill flour tortillas. Top with cheese and you have a great meal. Can be made vegan. (Slow cooker)
+* Black Bean Soup
+  * Veggie overload! Black beans slow cooked with all the veggies. It is the perfect bowl of soup for a cold night. (Slow cooker)
+
 ## December 2018
 
 * Baked French Toast with Praline Topping (Oven)
