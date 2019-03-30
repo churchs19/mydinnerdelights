@@ -5,6 +5,35 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## March 2019
+
+* Orange Chicken
+  * My favorite Chinese meal. Lightly breaded chicken tossed with an orange sauce and served with rice and veggies. (Stovetop)
+* Ham and Broccoli Strata
+  * Layers of flaky croissants, ham, broccoli and cheese. Once baked it is the perfect combination of gooey cheese and crispy croissants. Perfect for breakfast or breakfast for dinner! (Oven)
+* Hot Sausage Sandwiches
+  * My favorite sandwich growing up! Italian sausage is cooked with veggies and tomatoes. Spoon it on buns and top with mozzarella. Comes with veggies, buns and cheese. (Stovetop)
+* Lomo Saltado
+  * One of my favorite dishes from Peru! A delicious stir fry of beef, veggies, and potatoes. Served over rice. Can be made vegetarian. (Stovetop)
+* Cheeseburger Gnocchi
+  * Cheeseburger pasta with potato dumplings. The best parts of a burger and fries without the bun! (Stovetop)
+* Quinoa Enchilada Bowls
+  * Cheesy, veggie goodness in tasty enchilada sauce. Perfect for Meatless Monday or Taco Tuesday! (Slow Cooker)
+* Roasted Veggies with Orzo
+  * A great pasta salad. Eggplant, zucchini, tomatoes and more are roasted then mixed with orzo and a light vinaigrette. (Oven and stovetop)
+* Bacon Wrapped Pork Chops with Jalapeno Creamed Corn
+  * Juicy pork chops wrapped in crispy bacon and served with homemade creamed corn. It is the perfect Iowa farm meal! (Stovetop)
+* Albondigas
+  * Soup delicious meatballs in a rich, veggie filled broth. (Stovetop or slow cooker)
+* Green Chile Chicken Pasta
+  * A veggie filled one pot dish. We are combining some of my favorite flavors for a quick and easy family dinner. (Stovetop)
+* Pineapple Sage Chicken
+  * Juicy, citrus marinated chicken served with veggies. (Stovetop)
+* Sweet Potato and Quinoa Soup
+  * My take on my favorite soup from Peru. (Stovetop)
+* Taco Stuffed Peppers
+  * Seasoned veggies stuff a pepper. A great way to have veggies and tacos all in one bite! (Oven)
+
 ## February 2019
 
 * Monterey Chicken
