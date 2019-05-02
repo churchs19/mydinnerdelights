@@ -5,6 +5,33 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## April 2019
+
+* Chicken Flautas
+  * My favorite Mexican(ish) meal! Cheesy, seasoned chicken wrapped in flour tortillas and baked or fried. (Crockpot then baked or fried)
+* Cheesy Chicken and Rice
+  * Delicious chicken, veggie and rice dish. A one pot dish that covers all the bases! (Stovetop)
+* Lemon Turkey with Green Beans
+  * Sliced turkey breast and green beans tossed with a citrus pan sauce. A great way to have turkey not at Thanksgiving. (Stovetop)
+* Carnitas
+  * Slow cooked deliciousness is the best way to describe these amazing tacos. Pork is slow cooked all day then broiled or pan fried to get crispy edges. My favorite way to make tacos! (Slow cooker then oven or stovetop)
+* Creamy Tuscan Tortellini
+  * Sausage and tortellini in a creamy tomato sauce, finished with a handful of spinach. (Stovetop)
+* Cuban Sandwiches
+  * Back by popular demand! Pork is slow cooked with citrus and herbs all day. Add ham and Swiss and you have an amazing sandwich. (Slow cooker)
+* Sriracha and Cheddar Juicy Lucy
+  * Cheddar stuffed burgers with a little (optional) kick. Comes with buns and veggies. (Grilled or stovetop)
+* Italian Beef Sandwiches
+  * My take on a Chicago favorite. Slow cooked beef is made into amazing sandwiches. Comes with rolls and veggies. (Slow cooker)
+* Sweet Potato and Chickpea Curry
+  * An amazing vegetarian curry finished with fresh spinach and coconut milk. Comes with rice. (Slow cooker)
+* Baked Oatmeal
+  * Oatmeal is mixed with blueberries and peaches then baked. One of my favorite quick and easy breakfasts. (Baked)
+* Stir Fried Quinoa and Veggies
+  * A new twist of fried rice. Quinoa is fried with veggies and eggs. (Stovetop)
+* Ham and Cheese Pot Pie
+  * Creamy ham and Swiss filling is topped puff pastry to create a quick and filling pot pie. (Stove top then baked)
+
 ## March 2019
 
 * Orange Chicken
