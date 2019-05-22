@@ -5,6 +5,31 @@ sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
+## May 2019
+
+* Chicken Burrito Bowls
+  * Shredded chicken and veggies top rice for a quick and delicious dinner. (Slow Cooker)
+* Honey Chicken Tenders
+  * Sweet chicken tenders baked to perfection. Comes with veggies. (Oven)
+* Mediterranean Turkey Burger
+  * Juicy turkey burger mixed with spinach, sun dried tomatoes, and feta. Comes with buns and veggies. (Grill or stovetop)
+* Balsamic Honey Pulled Pork
+  * Pulled pork mixed with a sweet and tangy bbq sauce. Comes with veggies. (Slow cooker)
+* Jalapeno Pineapple Pork Tacos
+  * Sweet and spicy pork tacos. Fresh flavors ready when you need it! Comes with corn tortillas and cheese. (Slow cooker)
+* Italian Pork Roast
+  * Pork roast slow cooked with herbs and tomatoes. Smells amazing and tastes great! Comes with veggies. (Crockpot)
+* Pizza Burgers
+  * Homemade burgers that are good grilled or pan cooked. Topped with mozzarella, pepperoni, and marinara. Comes with buns and veggies. (Grilled or stovetop)
+* Philly Stuffed Peppers
+  * Bell peppers stuffed with beef and onions then topped with provolone. (Stovetop then Bake)
+* Sloppy Joes
+  * Ground beef is mixed with veggies, spices and tomato sauce for the best homemade Sloppy Joes. It is a great update on a classic. Comes with veggies and buns. (Stovetop)
+* Pasta Primavera
+  * A fresh spring pasta filled with veggies. A great way to enjoys spring’s bounty. (Stovetop)
+* Caprese Risotto
+  * Creamy risotto is mixed with pesto, tomatoes, and fresh mozzarella. It is a delicious and quick spring dinner. (Stovetop)
+
 ## April 2019
 
 * Chicken Flautas
