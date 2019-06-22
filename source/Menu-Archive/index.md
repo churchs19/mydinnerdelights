@@ -4,6 +4,32 @@ date: 2017-01-22 21:41:17
 sectionClass: menu-archive
 ---
 <!-- markdownlint-disable MD002 MD041 -->
+## June 2019
+
+* Limoncello Chicken
+  * Herby, garlicky, lemony grilled chicken and onions. Served with veggies. (Grilled)
+* Turkey Pesto Burger
+  * Mix together turkey and pesto for a juicy, flavorful burger.  Served with fresh mozzarella, buns and veggies.  (Grilled)
+* Chicken or Portobello Fajitas
+  * Chicken marinated in fresh squeezed juices and seasonings then grilled with peppers and onions for the best fajitas! Comes with tortillas. (Grilled)
+* Chicken Fried Cauli-rice
+  * Get extra veggies in this tasty take on fried rice. (Stovetop)  
+* Mozzarella Stuffed Meatball Burgers
+  * Beef and Italian sausage burger seasoned and stuffed with mozzarella.  Comes with marinara, awesome bread, and veggies. (Grilled)
+* Puerto Rican Shredded Pork with Black Beans
+  * Juicy, citrus marinated pork served with corn tortillas and black beans. (Crockpot)
+* Pork Egg Roll Bowl
+  * All the best parts of eggrolls and none of the mess! Ground pork and veggies topped with crispy wonton strips. (Stovetop) 
+* Veggie Loaded Black Beans and Rice
+  * Black beans and rice like you have never had them before! It is a great vegan meal. (Stovetop) 
+* Pasta with Chickpea and Garlic Sauce
+  * One of my favorite vegan pasta meals. A delicious creamy chickpea sauce is tossed with pasta and cherry tomatoes. (Stovetop) 
+* Grilled Sweet Potato and Quinoa Salad
+  * A great summer salad. Grilled sweet potatoes are tossed with quinoa, greens, and dried cranberries. (Grill and stovetop)
+* Pizza Joes
+  * Sloppy Joes’ Italian cousin. A blend of beef, Italian sausage and pepperoni are simmered in an Italian flavored sauce. Comes with veggies, buns and mozzarella. (Stovetop) 
+* Garlic Butter Flank Steak
+  * This is the perfect meal for your grill. Seasoned flank steak is finished with an herby, garlicky butter sauce. Throw the veggies on the grill next to the steak and it will be a perfect summer meal. (Grill)
 
 ## May 2019
 
