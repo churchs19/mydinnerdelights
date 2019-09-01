@@ -5,6 +5,32 @@ sectionClass: menu-archive
 ---
 
 <!-- markdownlint-disable MD002 MD041 -->
+## August 2019
+
+- Turkey Apple Cheddar Burgers
+  - Turkey is mixed with shredded apples and cheddar for a juicy burger! Comes with buns and veggies. (Grill)
+- Salsa Verde Chicken
+  - Chicken is slow cooked with salsa verde and seasoning. Stuff corn tortillas with meat and cheese and you will have a new Taco Tuesday favorite. (Slow cooker)
+- Sausage and Cheese Bubbles
+  - A great meal for a lazy morning or a rushed evening! Biscuits are filled with sausage and cheese. Comes with scrambled eggs. (Oven and Stovetop)
+- Bacon Wrapped Pork Chops with Jalapeno Creamed Corn
+  - Juicy pork chops wrapped in crispy bacon and served with homemade creamed corn. It is the perfect Iowa farm meal! (Stovetop or Grill)
+- Red Chile Honey Pork Chops
+  - Juicy pork chops are marinated in a spicy honey marinade. While the pork chops cook, the marinade is turned into a delicious sauce to serve with the chops and veggies. (Grill)
+- Cajun Burgers
+  - Beef mixed with the Holy Trinity of Cajun cooking (onion, celery, green pepper, garlic) and Cajun seasoning. Topped with pepper jack and served on an onion bun. (Grilled)
+- Flank Steak and Peaches
+  - Marinated flank steaks served with grilled peaches. One of the best ways to taste the flavors of the season! (Grilled)
+- Chickpea and Quinoa Bowls
+  - Creamy, tomato-y chickpeas top quinoa for a quick and delicious dinner. (Stovetop)
+- Sweet Potato and Black Bean Tacos
+  - Sweet potatoes and beans make a great savory taco filling. Comes with corn tortillas. (Stovetop)
+- Three Tomato Risotto
+  - Three kinds of tomatoes create the perfect summer pasta dish. (Stovetop)
+- Thai Chicken Wraps
+  - Chicken and veggies are tossed with a savory peanut sauce. Can be made with or without chicken. Comes with wraps. (Stovetop)
+- Enchilada Stuffed Zucchini
+  - Chicken and enchilada sauce are stuffed into zucchini and topped with cheese for a tasty veggie filled meal. Can be made with or without chicken. (Slow cooker then baked)
 
 ## July 2019
 
