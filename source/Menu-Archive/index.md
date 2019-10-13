@@ -5,6 +5,35 @@ sectionClass: menu-archive
 ---
 
 <!-- markdownlint-disable MD002 MD041 -->
+## September 2019
+
+- Chicken Teriyaki
+  - Chicken cooked in a homemade teriyaki sauce. Comes with stir fry veggies and rice. (Stovetop)
+- Squash and Quinoa Soup
+  - Chicken, butternut squash, and quinoa cook into the perfect soup autumn soup. Can be made vegan. (Slow cooker)
+- Cilantro Lime Chicken
+  - Pan fried chicken finished with a creamy cilantro lime sauce. Comes with veggies. (Stovetop)
+- Green Chile and Cheese Stuffed Pork Chops
+  - Thick, juicy pork chops stuffed with green chiles and cheddar. Comes with veggies. (Oven)
+- Barbacoa Beef
+  - Flavorful beef perfect for tacos, nachos or quesadillas! Comes with tortillas and cheese. (Slow cooker)
+- Beef Tips and Roasted Veggies
+  - Juicy, herby pieces of beef served with roasted veggies. A fall favorite! (Oven)
+- Mexican Beef and Zucchini
+  - Flavorful beef and veggie skillet meal. (Stovetop)
+- Calabacita Tacos
+  - Zucchini, corn, and green chiles meld together into a delicious taco filling. Comes with corn tortillas. (Stovetop)
+- Roasted Veggies with Orzo
+  - A great early fall pasta salad. Eggplant, zucchini, tomatoes and more are roasted then mixed with orzo and a light vinaigrette. (Oven and stovetop)
+- Roasted Pork Chops
+  - Pork chops and veggies marinated in a savory Italian marinade. (Oven)
+- Red Beans and Rice with Sausage
+  - A great one pot meal for a busy night. (Stovetop)
+- Squash, Carrot and Kale Curry
+  - Delicious curry filled with the flavors of fall. Comes with rice (Stovetop)
+- Teriyaki Roasted Veggies
+  - Roasted veggies tossed with homemade teriyaki sauce. Served over rice. (Oven and Stovetop)
+
 ## August 2019
 
 - Turkey Apple Cheddar Burgers
