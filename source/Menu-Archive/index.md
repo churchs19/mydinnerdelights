@@ -5,6 +5,36 @@ sectionClass: menu-archive
 ---
 
 <!-- markdownlint-disable MD002 MD041 -->
+
+## October 2019
+
+- Honey Lime Chicken with Butternut Squash
+  - The perfect blend of squash, chicken and seasonings. Served over rice. (Slow cooker)
+- Apple Cider Pulled Chicken
+  - My favorite shredded chicken sandwich. Comes with sourdough, cheddar, and veggies. (Slow cooker)
+- Enchilada Stuffed Chicken
+  - Chicken stuffed with green chile and tomatoes and covered with enchilada sauce. Served with sautéed zucchini, corn and chiles. (Oven)
+- Spicy Pork Burrito Bowls
+  - Pork and veggies seasoned to your taste. Add some rice and you have the perfect burrito bowl! Comes with rice and cheese. (Slow cooker)
+- Cuban Sandwiches
+  - Back by popular demand! Pork is slow cooked with citrus and herbs all day. Add ham and Swiss and you have an amazing sandwich. (Slow cooker)
+- Italian Stuffed Zucchini
+  - Zucchini boats filled with flavorful meat sauce. Topped with mozzarella and baked until golden brown and delicious. (Stovetop then oven)
+- Red Wine Roast with Creamy Polenta and Roasted Radishes
+  - Herbed roast cooked in red wine. Perfect for Sunday dinner and no one has to know it took you less than half an hour to make! (Slow cooker)
+- Penne alla Vodka
+  - A creamy tomato sauce is mixed with penne for one of my favorite pasta dishes. (Stovetop)
+- BBQ Tacos
+  - A twist on the usual Mexican flavors. Veggies are mixed with a quick BBQ sauce and stuffed into corn tortillas. (Stovetop)
+- Chickpea and Eggplant Curry
+  - This delicious curry comes together in no time. Comes with rice. (Stovetop)
+- Lemon Garlic Roasted Chicken
+  - Juicy, roasted chicken and veggies. (Oven)
+- Korean Beef
+  - Tender shredded beef served over rice with veggies. (Slow cooker)
+- Colache
+  - A classic Mexican dish turned into a hearty fall stew. Comes with rice. (Slow cooker)
+
 ## September 2019
 
 - Chicken Teriyaki
