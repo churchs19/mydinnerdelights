@@ -6,6 +6,35 @@ sectionClass: menu-archive
 
 <!-- markdownlint-disable MD002 MD041 -->
 
+## November 2019
+
+- Sweet and Spicy Bacon Wrapped Chicken
+  - The name says it all! Bacon wrapped chicken seasoned with a little sweet and a little spice. Comes with veggies. (Baked)
+- Shredded Mexican Chicken with Rice
+  - Rice bowls topped with the most flavorful chicken. (Slow Cooker)
+- Chicken with Spinach and Sun Dried Tomatoes
+  - Baked chicken topped with spinach, tomatoes, and cheese. A great way to add more veggies to your day! Comes with veggies. (Baked)
+- Sweet Potato Turkey Hash
+  - This is one of my favorite ways to use turkey! Sautéed sweet potatoes and turkey slightly sweetened with maple syrup. Perfect for breakfast or dinner! (Stovetop)
+- Apple Glazed Pork with Cheesy Grits
+  - Slightly sweet, seasoned pork served over cheesy grits. (Slow cooker)
+- Pork Chops with Cider Pan Sauce
+  - Juicy pork chops are finished with a sweet and savory pan sauce. Comes with veggies. (Stovetop)
+- Corn Chowder
+  - I love soup and this one has moved to the top of my favorites list! Slow cooked all day with a touch of cream or coconut milk added at the end. (Slow cooker or stovetop)
+- Golden Coconut Lentil Soup
+  - A great soup filled with bright flavors. (Stovetop)
+- Harissa Veggie Bowl
+  - A great selection of fall veggies, roasted and served over quinoa. (Oven)
+- Roasted Veggie Tacos
+  - The best tacos filled with veggies and flavor! (Oven)
+- Pot Sticker Noodle Bowl
+  - The flavors of pot stickers in a quick and easy noodle bowl. (Stovetop)
+- Beef Stew
+  - A hearty fall favorite. This flavorful beef stew is full of veggies. (Slow cooker)
+- Beef Stroganoff
+  - A classic meal made into a freezer meal favorite. Comes with noodles. (Slow cooker)
+
 ## October 2019
 
 - Honey Lime Chicken with Butternut Squash
