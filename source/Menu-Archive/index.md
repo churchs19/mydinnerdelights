@@ -6,6 +6,34 @@ sectionClass: menu-archive
 
 <!-- markdownlint-disable MD002 MD041 -->
 
+## December 2019
+
+- Baked French Toast with Praline Topping
+  - My favorite family tradition. We have this amazing breakfast bake for all our big family breakfasts. (Oven)
+- Orange Rosemary Chicken
+  - Juicy, citrus marinated chicken served with veggies. (Stovetop)
+- Honey Sriracha Chicken
+  - A little spice to go with a little sweet! This will be your new favorite take-out substitute. Comes with veggies and zoodles. (Stovetop)
+- French Onion Chicken
+  - Tender chunks of chicken, caramelized onions, and Swiss cheese served over egg noodles. (Stovetop)
+- Taco Soup
+  - A flavorful, veggie loaded soup. It is my go-to for a filling meal in cold weather. Comes with or without chicken and cheese. (Slow cooker)
+- Ropa Vieja
+  - Beef roast slow cooked with peppers and tomatoes. A Midwest twist on a Cuban favorite. Comes with rice. (Slow Cooker)
+- Stuffed Pepper Soup
+  - A tomato-based soup filled with beef or mushrooms, peppers, and rice. A quick and delicious dinner. (Stovetop)
+- Butter(less) Chickpeas
+  - A vegan take on a classic Indian dish. Comes with rice. (Stovetop)
+- Smoky Sweet Potato and Chickpea Stew
+  - A thick and delicious stew. A great meal to go with a
+  - good book. (Slow Cooker)
+- Lemon Thyme Pork with Spinach Rice
+  - Pan cooked pork chops finished with a lemon thyme sauce. Served with a flavorful green rice. (Stovetop)
+- Cochinita Pibil (Mexican Shredded Pork)
+  - Citrus and annatto seasoned pork is slow cooked until it falls apart. It makes amazing tacos, nachos, or quesadillas. (Slow cooker)
+- French Dip Sandwiches
+  - Slow cooked beef with a perfectly seasoned au jus. Served with rolls and veggies. (Slow cooker)
+
 ## November 2019
 
 - Sweet and Spicy Bacon Wrapped Chicken
