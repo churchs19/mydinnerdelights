@@ -6,6 +6,30 @@ sectionClass: menu-archive
 
 <!-- markdownlint-disable MD002 MD041 -->
 
+## February 2020
+
+- Mozzarella Stuffed Turkey Pesto Meatballs
+  - Back by popular demand! Turkey pesto meatballs are stuffed with mozzarella and baked to perfection. Served with Awesome bread and veggies. (Oven)
+- Beef and Noodles
+  - Egg noodles are topped with beef that is slow cooked in a savory sauce. Perfect for a cold night! (Slow cooker)
+- Thai Pork Tacos
+  - Pork is slow cooked with ginger, garlic, and soy sauce. Corn tortillas are topped with pork and a honey sriracha sauce. (Slow cooker)
+- Cincinnati Chili
+  - A beefy chili sauce is slow cooked all day. It is served over spaghetti and topped with Cheddar. (Slow Cooker)
+- Cajun Meatloaf
+  - Ground beef is mixed with the holy trinity (celery, pepper, onion, and garlic) and topped with a tomato sauce. Comes with veggies. (Oven)
+- Garlic Pepper Chicken
+  - Garlic and black pepper season chicken and veggies. A quick one pot meal. Comes with rice. (Stovetop)
+- Ham and Cheese Stuffed Chicken
+  - Ham, Swiss and jalapenos are mixed together and stuffed inside chicken for a gooey, delicious meal. Served with veggies. (Oven)
+- Hawaiian Meatballs
+  - Beef is mixed with pineapple and water chestnuts and cooked with a sweet and tangy sauce. Comes with veggies and rice. (Slow Cooker or Oven)
+- Pork Stew
+  - Hunks of pork and veggies are cooked together for a delicious stew. Perfect for a chilly winter night. (Slow Cooker)
+- Jerk Pulled Chicken
+  - A taste of the tropics during winter. Chicken is seasoned and slow cooked with a tangy homemade bbq
+    sauce. Served with buns and veggies. (Slow Cooker)
+
 ## December 2019
 
 - Baked French Toast with Praline Topping
