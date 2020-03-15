@@ -1,0 +1,28 @@
+import Vue from "vue";
+import Page from "~/components/Page.vue";
+import Teaser from "~/components/Teaser.vue";
+import Grid from "~/components/Grid.vue";
+import Feature from "~/components/Feature.vue";
+import Bio from "~/components/Bio.vue";
+import Menu from "~/components/Menu.vue";
+import MenuMonth from "~/components/MenuMonth.vue";
+import MenuItem from "~/components/MenuItem.vue";
+import Richtext from "~/components/Richtext.vue";
+import Contact from "~/components/Contact.vue";
+import Services from "~/components/Services.vue";
+import Service from "~/components/Service.vue";
+import ServicePrice from "~/components/ServicePrice.vue";
+
+Vue.component("blok-page", Page);
+Vue.component("blok-teaser", Teaser);
+Vue.component("blok-grid", Grid);
+Vue.component("blok-feature", Feature);
+Vue.component("blok-bio", Bio);
+Vue.component("rich-text", Richtext);
+Vue.component("blok-menu", Menu);
+Vue.component("blok-menu-month", MenuMonth);
+Vue.component("blok-menu-item", MenuItem);
+Vue.component("blok-contact", Contact);
+Vue.component("blok-services", Services);
+Vue.component("blok-service", Service);
+Vue.component("blok-service-price", ServicePrice);

@@ -1,0 +1,21 @@
+<template>
+  <!-- <section v-editable="blok" class="feature-image">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="clearfix">
+            <img src="images/DinnerDelights_Logo_Eggplant_1C_7652C_w_white_shadow.svg" alt="Dinner Delights" class="pull-right"/>
+            </div>
+            <p><a class="btn btn-primary btn-lg" href="#contact" role="button">Schedule a party today!</a></p>
+        </div>
+    </div>
+</section> -->
+  <div class="teaser">
+    {{ blok.headline }}
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["blok"]
+};
+</script>

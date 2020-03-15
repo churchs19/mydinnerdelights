@@ -1,0 +1,38 @@
+@import "../variables.scss";
+
+.indicates-required,
+label {
+  display: block;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  font-family: $base-font-family;
+  font-weight: 500;
+  color: $secondary-dark;
+  background-color: $secondary-light;
+  border: 2px solid $secondary-dark;
+  padding: 0 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: border linear 0.3s;
+  -webkit-transition: border linear 0.3s;
+  -o-transition: border linear 0.3s;
+  transition: border linear 0.3s;
+}
+
+textarea {
+  padding: 15px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: $primary-olive-green !important;
+  outline: none;
+}

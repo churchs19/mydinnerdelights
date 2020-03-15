@@ -1,0 +1,459 @@
+@import "./variables.scss";
+
+@import "./elements/fonts.scss";
+@import "./elements/body.scss";
+@import "./elements/anchors.scss";
+@import "./elements/images.scss";
+@import "./elements/inputs.scss";
+@import "./elements/headings.scss";
+@import "./elements/buttons.scss";
+@import "./elements/sections.scss";
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  z-index: 3;
+}
+
+/*Header*/
+
+/*Top nav left*/
+
+.top-nav {
+  color: #070606;
+  line-height: 40px;
+  border-bottom: 1px solid $primary-olive-green;
+}
+
+/*Top left Menu*/
+
+.top-left {
+  float: left;
+}
+
+.top-left ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.top-left a {
+  color: #070606;
+}
+
+.top-left a:hover {
+  color: $primary-olive-green;
+}
+
+/*Top Right Menu*/
+
+.top-right {
+  float: right;
+}
+
+.top-right p:before {
+  content: "\f041";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: $primary-olive-green;
+  margin-right: 10px;
+}
+
+.top-right p {
+  font-family: $base-font-family;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.top-right p > span {
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*Nagivation*/
+
+#main-nav {
+  padding: 15px 0;
+  position: relative;
+}
+
+#main-nav::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $secondary-light;
+  opacity: 0.8;
+}
+
+/*Affix*/
+
+#main-nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  -moz-box-shadow: 0 1px 2px $secondary-dark;
+  -webkit-box-shadow: 0 1px 2px $secondary-dark;
+  box-shadow: 0 5px 5px rgba(0, 20, 64, 0.15);
+  transition: all 0.3s;
+}
+
+#main-nav.affix::before {
+  opacity: 0.9;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.navbar-brand {
+  position: relative;
+  padding-left: 55px;
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+/*Toggle Menu*/
+
+#main-nav .navbar-toggle {
+  background-color: $primary-olive-green;
+}
+
+#main-nav .navbar-toggle span {
+  background-color: $secondary-light;
+}
+
+/*Main Menu*/
+
+#main-nav .navbar-right {
+  margin-top: 10px;
+}
+
+#main-nav .navbar-right li > a {
+  font-family: $base-font-family;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: $secondary-dark;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+
+#main-nav .navbar-right li > a:focus {
+  color: $secondary-dark;
+  background: none;
+  outline: none;
+}
+
+#main-nav .navbar-nav > li > a:hover,
+#main-nav .navbar-nav > li.active > a {
+  color: $secondary-dark;
+  background: none;
+}
+
+/* Feature image */
+.feature-image {
+  position: relative;
+  background-color: $secondary-light;
+  margin-bottom: 15vh;
+}
+
+.feature-image::before {
+  display: block;
+  content: " ";
+  position: absolute;
+  left: calc(10vw + 50px);
+  right: 0;
+  bottom: 10px;
+  height: 100%;
+  z-index: 12;
+  border-bottom: 10px dotted $secondary-light;
+}
+
+.feature-image::after {
+  display: block;
+  content: " ";
+  position: absolute;
+  background: $primary-olive-green;
+  bottom: -7%;
+  left: 10vw;
+  right: 0;
+  height: 7%;
+  z-index: 2;
+}
+
+.jumbotron {
+  background-color: $secondary-light;
+  background-image: url("https://res.cloudinary.com/dinner-delights/image/upload/c_limit,f_auto,q_auto:good,w_1200/v1584279686/chopping-vegetables.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 80vh;
+  color: $primary-olive-green;
+  font-family: "wanderlust_lettersregular";
+  clip-path: polygon(15vw 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.jumbotron::before {
+  display: block;
+  content: " ";
+  position: absolute;
+  background: #000000;
+  bottom: 0;
+  left: 10vw;
+  right: 0;
+  height: 12%;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.jumbotron .container {
+  height: 100%;
+}
+
+.jumbotron .container img {
+  max-width: 80vw;
+}
+
+.jumbotron p {
+  padding-left: 10vw;
+}
+
+.jumbotron h1 {
+  display: inline-block;
+  padding: 15px 25vw 15px 15px;
+  background-color: $primary-eggplant;
+  color: $secondary-light;
+  margin: 5px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: $secondary-light;
+  text-transform: uppercase;
+  background-color: $primary-olive-green;
+  border-color: $primary-olive-green;
+}
+
+.jumbotron .btn-primary {
+  margin-top: 100px;
+}
+
+.join-content .btn,
+.menu-container .btn-buy-jars {
+  background-color: $primary-pepper;
+  font-weight: 600;
+  color: $secondary-light;
+  border: 3px solid $secondary-light;
+}
+
+.join-content .btn,
+.menu-container .btn-buy-jars {
+  border-color: $primary-pepper;
+}
+
+.join-content .btn:hover,
+.menu-container .btn-buy-jars:hover {
+  background-color: $secondary-light;
+  color: $primary-pepper;
+  border-color: $secondary-light;
+}
+
+.join-content .btn:hover,
+.menu-container .btn-buy-jars:hover {
+  border-color: $primary-pepper;
+}
+/*FAQ*/
+
+/*Contact*/
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#sendmessage {
+  color: green;
+  border: 1px solid green;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sendmessage.show,
+#errormessage.show,
+.show {
+  display: block;
+}
+
+/* Contact */
+
+.contact-container {
+  line-height: 2;
+}
+
+#mc-embedded-subscribe {
+  margin-top: 16px;
+}
+
+#mc_embed_signup {
+  margin-top: 50px;
+}
+
+input.mce_inline_error {
+  border: 2px solid $primary-pepper !important;
+}
+
+div.mce_inline_error {
+  color: $primary-pepper !important;
+  background: none !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 992px) {
+  #mc_embed_signup {
+    margin-top: 0;
+  }
+}
+
+/*Bottom Footer*/
+
+#bottom-footer {
+  position: relative;
+  margin-top: 50px;
+  background-image: url("https://res.cloudinary.com/dinner-delights/image/upload/c_limit,f_auto,q_auto:low,w_1000/v1584279687/wood-grain.jpg");
+  background-size: cover;
+  padding: 20px 0;
+  color: $secondary-dark;
+}
+
+#bottom-footer::before {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $secondary-light;
+  opacity: 0.8;
+}
+
+#bottom-footer .footer-right ul > li > a {
+  color: $secondary-dark;
+}
+
+#bottom-footer .footer-right ul > li > a:hover {
+  color: $secondary-dark;
+}
+
+.monthly-menu-header {
+  font-family: $base-font-family;
+}
+
+i.fa.fa-external-link {
+  font-size: 16px;
+}
+
+.menu-archive {
+  margin-top: 100px;
+}
+
+.menu-archive h1 {
+  text-align: center;
+}
+
+.menu-archive h2 {
+  font-family: "local_breweryfour";
+  color: $primary-pepper;
+}
+
+.join-content,
+.menu-content,
+.menu-archive {
+  border: 8px solid $primary-olive-green;
+  background-color: $secondary-light;
+  padding: 2vw 5vw 5vw 5vw;
+}
+
+.photos-section {
+  margin-top: 90px;
+}
+
+.photos-section .grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.photos-section .photo-item {
+  box-sizing: border-box;
+  flex: 0 1 calc(50% - 8px);
+  display: flex;
+  align-items: center;
+  background-color: $secondary-light;
+  border: 8px solid $secondary-light;
+  margin: 4px;
+}
+
+.photos-section .photo-item img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .photos-section .photo-item {
+    flex: 0 1 calc(33% - 8px);
+  }
+}
+
+@media (min-width: 992px) {
+  .photos-section .photo-item {
+    flex: 0 1 calc(25% - 8px);
+  }
+}

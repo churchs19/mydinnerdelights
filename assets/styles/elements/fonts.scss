@@ -1,0 +1,28 @@
+/* Fonts */
+@font-face {
+  font-family: "wanderlust_lettersregular";
+  src: url("/fonts/cultivated_mind_-_wanderlust_letters-webfont.woff2")
+      format("woff2"),
+    url("/fonts/cultivated_mind_-_wanderlust_letters-webfont.woff")
+      format("woff"),
+    url("/fonts/cultivated_mind_-_wanderlust_letters-webfont.otf")
+      format("opentype"),
+    url("/fonts/cultivated_mind_-_wanderlust_letters-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "local_breweryfour";
+  src: url("/fonts/cultivated_mind_-_local_brewery_four-webfont.woff2")
+      format("woff2"),
+    url("/fonts/cultivated_mind_-_local_brewery_four-webfont.woff")
+      format("woff"),
+    url("/fonts/cultivated_mind_-_local_brewery_four-webfont.otf")
+      format("opentype"),
+    url("/fonts/cultivated_mind_-_local_brewery_four-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
