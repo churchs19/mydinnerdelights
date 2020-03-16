@@ -1,6 +1,5 @@
 <template>
-  <!--services-->
-  <div class="section services">
+  <div id="services" class="section services">
     <section class="services-style-one">
       <div class="container-fluid">
         <div class="row">

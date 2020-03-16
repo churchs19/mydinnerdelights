@@ -78,7 +78,6 @@ module.exports = {
    */
   css: [
     "~/assets/styles/vendor/bootstrap.css",
-    "~/assets/styles/vendor/bootstrap-theme.css",
     "~/assets/styles/vendor/flexslider.css",
     "~/assets/styles/vendor/font-awesome.css",
     "~/assets/styles/styles.scss"
