@@ -25,7 +25,6 @@
   border-width: 3px;
   background-color: transparent;
   border-color: $primary-eggplant;
-  background-image: none;
   text-shadow: none;
 }
 
@@ -34,4 +33,17 @@
   color: $secondary-light;
   background-color: $primary-eggplant;
   border-color: $secondary-light;
+}
+
+.btn-call-to-action {
+  background-color: $primary-pepper;
+  font-weight: 600;
+  color: $secondary-light;
+  border: 3px solid $primary-pepper;
+
+  &:hover {
+    background-color: $secondary-light;
+    color: $primary-pepper;
+    border-color: $primary-pepper;
+  }
 }

@@ -261,30 +261,17 @@
   margin-top: 100px;
 }
 
-.join-content .btn,
-.menu-container .btn-buy-jars {
-  background-color: $primary-pepper;
-  font-weight: 600;
-  color: $secondary-light;
-  border: 3px solid $secondary-light;
-}
+// .join-content .btn,
+// .menu-container .btn-buy-jars {
+// }
 
-.join-content .btn,
-.menu-container .btn-buy-jars {
-  border-color: $primary-pepper;
-}
+// .join-content .btn:hover,
+// .menu-container .btn-buy-jars:hover {
+// }
 
-.join-content .btn:hover,
-.menu-container .btn-buy-jars:hover {
-  background-color: $secondary-light;
-  color: $primary-pepper;
-  border-color: $secondary-light;
-}
-
-.join-content .btn:hover,
-.menu-container .btn-buy-jars:hover {
-  border-color: $primary-pepper;
-}
+// .join-content .btn:hover,
+// .menu-container .btn-buy-jars:hover {
+// }
 /*FAQ*/
 
 /*Contact*/
@@ -408,12 +395,10 @@ i.fa.fa-external-link {
 }
 
 .menu-archive h2 {
-  font-family: "local_breweryfour";
+  font-family: $subheading-font-family;
   color: $primary-pepper;
 }
 
-.join-content,
-.menu-content,
 .menu-archive {
   border: 8px solid $primary-olive-green;
   background-color: $secondary-light;

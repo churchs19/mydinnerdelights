@@ -49,6 +49,12 @@ export default {
 <style lang="scss">
 @import "~assets/styles/variables.scss";
 
+.menu-content {
+  border: 8px solid $primary-olive-green;
+  background-color: $secondary-light;
+  padding: 2vw 5vw 5vw 5vw;
+}
+
 .menu-btn-container {
   margin-top: 30px;
 }
