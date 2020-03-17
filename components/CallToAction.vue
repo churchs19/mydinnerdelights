@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-xs-12 text-center">
             <a
-              :href="blok.cta_link"
+              :href="blok.cta_link.url"
               class="btn btn-call-to-action"
               target="_blank"
               >{{ blok.cta_label }}</a
