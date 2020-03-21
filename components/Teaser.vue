@@ -106,4 +106,8 @@ export default {
   color: $secondary-light;
   margin: 5px;
 }
+
+.jumbotron .btn-primary {
+  margin-top: 100px;
+}
 </style>

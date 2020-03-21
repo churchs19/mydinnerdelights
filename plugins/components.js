@@ -11,6 +11,7 @@ import Services from "~/components/Services.vue";
 import Service from "~/components/Service.vue";
 import ServicePrice from "~/components/ServicePrice.vue";
 import CallToAction from "~/components/CallToAction.vue";
+import Masthead from "~/components/Masthead.vue";
 
 Vue.component("blok-page", Page);
 Vue.component("blok-teaser", Teaser);
@@ -24,3 +25,4 @@ Vue.component("blok-services", Services);
 Vue.component("blok-service", Service);
 Vue.component("blok-service-price", ServicePrice);
 Vue.component("blok-call-to-action", CallToAction);
+Vue.component("blok-masthead", Masthead);
