@@ -1,5 +1,5 @@
 <template>
-  <div class="service-block">
+  <div class="service-block" v-editable="blok">
     <div class="icon-box">
       <div class="icon-border">
         <img

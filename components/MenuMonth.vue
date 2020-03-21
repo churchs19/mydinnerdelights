@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li v-editable="blok">
     <h3 class="subheading">{{ blok.title }}</h3>
 
     <ul class="menu-list">

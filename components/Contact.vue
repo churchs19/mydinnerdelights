@@ -1,5 +1,5 @@
 <template>
-  <div id="contact" class="section contact">
+  <div id="contact" v-editable="blok" class="section contact">
     <section class="contact-container">
       <div class="container">
         <div class="row">

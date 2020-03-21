@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li v-editable="blok">
     <img
       v-if="blok.image"
       :src="blok.image"

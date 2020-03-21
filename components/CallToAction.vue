@@ -1,5 +1,5 @@
 <template>
-  <div :id="blok.id" class="section">
+  <div v-editable="blok" :id="blok.id" class="section">
     <section class="cta-container">
       <div class="container cta-content">
         <div class="row">

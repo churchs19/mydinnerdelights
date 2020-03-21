@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="section services">
+  <div id="services" class="section services" v-editable="blok">
     <section class="services-style-one">
       <div class="container-fluid">
         <div class="row">

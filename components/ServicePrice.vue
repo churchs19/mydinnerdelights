@@ -1,5 +1,5 @@
 <template>
-  <div class="price">
+  <div class="price" v-editable="blok">
     <div class="price-value" v-if="blok.price">{{ blok.price }}</div>
     <div class="text-sm" v-if="blok.unit">{{ blok.unit }}</div>
     <div>{{ blok.description }}</div>
