@@ -62,7 +62,6 @@ module.exports = {
       { src: "/js/jquery.min.js" },
       { src: "/js/bootstrap.min.js" },
       { src: "/js/jquery.flexslider.js" },
-      { src: "/js/instagramfeed.min.js" },
       { src: "/js/script.js" }
     ]
   },
@@ -111,6 +110,10 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {
+      if (ctx.isDev) {
+        config.devtool = ctx.isClient ? "source-map" : "inline-source-map";
+      }
+    }
   }
 };
