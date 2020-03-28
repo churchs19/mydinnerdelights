@@ -1,12 +1,22 @@
 <template>
   <div v-editable="blok">
     <Masthead></Masthead>
-    <component
-      :key="blok._uid"
-      v-for="blok in blok.body"
-      :blok="blok"
-      :is="blok.component | dashify"
-    ></component>
+    <template v-for="blok in blok.body">
+      <component
+        v-if="blok.component !== 'instagram'"
+        :key="blok._uid"
+        :blok="blok"
+        :is="blok.component | dashify"
+      ></component>
+      <component
+        v-else
+        :key="blok._uid"
+        :blok="blok"
+        :instagram="instagram"
+        :is="blok.component | dashify"
+      >
+      </component>
+    </template>
     <PageFooter></PageFooter>
   </div>
 </template>
@@ -16,7 +26,7 @@ import Masthead from "./Masthead.vue";
 import PageFooter from "./PageFooter.vue";
 
 export default {
-  props: ["blok"],
+  props: ["blok", "instagram"],
   components: {
     Masthead,
     PageFooter

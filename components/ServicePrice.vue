@@ -8,10 +8,7 @@
 
 <script>
 export default {
-  props: ["blok"],
-  mounted() {
-    console.log(JSON.stringify(this.blok));
-  }
+  props: ["blok"]
 };
 </script>
 

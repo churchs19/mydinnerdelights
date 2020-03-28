@@ -2,7 +2,15 @@ const pkg = require("./package");
 
 module.exports = {
   mode: "universal",
-
+  env: {
+    instagramProxyBaseUrl:
+      process.env.INSTAGRAM_PROXY_BASE_URL ||
+      "https://adoring-kowalevski-074ff3.netlify.com/",
+    instagramProxyApiKey:
+      process.env.INSTAGRAM_PROXY_KEY ||
+      "85s00!.qanZihO!rBdt,=@Re!fp<;79~8&<HhTh#cz/nLaiipH5%Q;Ck:U46qySfAZ6R^Sq:}k{pn3IA7H_?;ez[Q@Q.@?.zj6N5",
+    gistId: process.env.GIST_ID || "df8fef1eaf9d013f5253e5410e518998"
+  },
   /*
    ** Headers of the page
    */
@@ -100,7 +108,40 @@ module.exports = {
    ** Router middleware
    */
   router: {
-    middleware: "setCacheVersion"
+    middleware: "setCacheVersion",
+    scrollBehavior: async (to, from, savedPosition) => {
+      if (savedPosition) {
+        return savedPosition;
+      }
+
+      const findEl = async (hash, x) => {
+        return (
+          document.querySelector(hash) ||
+          new Promise((resolve, reject) => {
+            if (x > 50) {
+              return resolve();
+            }
+            setTimeout(() => {
+              resolve(findEl(hash, ++x || 1));
+            }, 100);
+          })
+        );
+      };
+
+      if (to.hash) {
+        let el = await findEl(to.hash);
+        if ("scrollBehavior" in document.documentElement.style) {
+          return window.scrollTo({
+            top: Math.max(0, el.offsetTop - 80),
+            behavior: "smooth"
+          });
+        } else {
+          return window.scrollTo(0, Math.max(0, el.offsetTop - 80));
+        }
+      }
+
+      return { x: 0, y: 0 };
+    }
   },
 
   /*
@@ -115,5 +156,8 @@ module.exports = {
         config.devtool = ctx.isClient ? "source-map" : "inline-source-map";
       }
     }
+  },
+  generate: {
+    dir: "public"
   }
 };

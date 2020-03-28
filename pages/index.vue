@@ -4,6 +4,7 @@
       v-if="story.content.component"
       :key="story.content._uid"
       :blok="story.content"
+      :instagram="instagram"
       :is="story.content.component | dashify"
     ></component>
   </div>
@@ -36,11 +37,23 @@ const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
     });
 };
 
-const loadInstagram = function() {};
+const loadInstagram = function({
+  instagramProxyBaseUrl,
+  instagramProxyKey,
+  gistId
+}) {
+  return fetch(`${instagramProxyBaseUrl}.netlify/functions/feed`, {
+    headers: {
+      Accept: "application/json",
+      "x-api-key": instagramProxyKey,
+      "x-gist-id": gistId
+    }
+  }).then(response => response.json());
+};
 
 export default {
   data() {
-    return { story: { content: {} } };
+    return { story: { content: {} }, instagram: [] };
   },
   mounted() {
     this.$storybridge.on(["input", "published", "change"], event => {
@@ -53,7 +66,7 @@ export default {
       }
     });
   },
-  asyncData(context) {
+  async asyncData(context) {
     // Check if we are in the editing mode
     let editMode = false;
 
@@ -77,13 +90,23 @@ export default {
     let path = context.route.path == "/" ? "home" : context.route.path;
 
     // Load the JSON from the API
-    return loadData({
+    const data = await loadData({
       version: version,
       api: context.app.$storyapi,
       cacheVersion: context.store.state.cacheVersion,
       errorCallback: context.error,
       path: path
     });
+
+    const instagramData = await loadInstagram({
+      instagramProxyBaseUrl: context.env.instagramProxyBaseUrl,
+      instagramProxyKey: context.env.instagramProxyApiKey,
+      gistId: context.env.gistId
+    });
+
+    data.instagram = instagramData.slice(0, 8);
+
+    return data;
   }
 };
 </script>
