@@ -4,11 +4,8 @@ module.exports = {
   mode: "universal",
   env: {
     instagramProxyBaseUrl:
-      process.env.INSTAGRAM_PROXY_BASE_URL ||
-      "https://adoring-kowalevski-074ff3.netlify.com/",
-    instagramProxyApiKey:
-      process.env.INSTAGRAM_PROXY_KEY ||
-      "85s00!.qanZihO!rBdt,=@Re!fp<;79~8&<HhTh#cz/nLaiipH5%Q;Ck:U46qySfAZ6R^Sq:}k{pn3IA7H_?;ez[Q@Q.@?.zj6N5",
+      process.env.INSTAGRAM_PROXY_BASE_URL || "https://localhost:8080",
+    instagramProxyApiKey: process.env.INSTAGRAM_PROXY_KEY || "local",
     gistId: process.env.GIST_ID || "df8fef1eaf9d013f5253e5410e518998"
   },
   /*
