@@ -6,6 +6,44 @@ sectionClass: menu-archive
 
 <!-- markdownlint-disable MD002 MD041 -->
 
+## March 2020
+
+- Orange Chicken
+  - My favorite Chinese meal. Lightly breaded chicken tossed
+    with an orange sauce and served with rice and veggies.
+    (Stovetop)
+- Pineapple Sage Chicken
+  - Juicy, citrus marinated chicken served with veggies.
+    (Stovetop)
+- Corn Chowder
+  - I love soup and this one has moved to the top of my
+    favorites list! Slow cooked all day with a touch of
+    cream or coconut milk added at the end. (Slow cooker)
+- Sausage Balls
+  - Juicy, cheesy sausage meatballs are baked and served
+    with veggies. (Oven)
+- Bacon Wrapped Pork Chops with Jalapeno Creamed Corn
+  - Juicy pork chops wrapped in crispy bacon and served with
+    homemade creamed corn. It is the perfect Iowa farm meal!
+    (Stovetop)
+- Margarita Chicken Tacos
+  - Chicken is slow cooked with tequila and lime juice to
+    make your new Taco Tuesday favorite. Comes with
+    tortillas. (Slow Cooker)
+- Chicken and Rice Soup
+  - Flavorful chicken soup is cooked all day and served with
+    rice. (Slow Cooker)
+- Monte Cristo Casserole
+  - Croissants are layered with ham, turkey, and swiss then
+    soaked in a sweetened custard and baked to perfection.
+    (Oven)
+- Greek Meatballs
+  - The flavors of the Mediterranean in a handy little
+    meatballs. Comes with pitas and veggies. (Oven)
+- Cheeseburger Gnocchi
+  - Cheeseburger pasta with potato dumplings. The best parts
+    of a burger and fries without the bun! (Stovetop)
+
 ## February 2020
 
 - Mozzarella Stuffed Turkey Pesto Meatballs
@@ -29,6 +67,29 @@ sectionClass: menu-archive
 - Jerk Pulled Chicken
   - A taste of the tropics during winter. Chicken is seasoned and slow cooked with a tangy homemade bbq
     sauce. Served with buns and veggies. (Slow Cooker)
+
+## January 2020
+
+- Honey Garlic Chicken
+  - A quick, flavorful meal for a busy night. Diced chicken is topped with a sweet garlic and herb sauce and served with rice and veggies. (Stovetop)
+- Chicken with Creamy Sundried Tomatoes
+  - Chicken and a creamy, cheesy tomato sauce served over pasta. (Stovetop)
+- Buffalo Turkey Meatballs
+  - Buffalo wings made into easy meatballs. Ground turkey is mixed with shredded carrot and wing sauce. Comes with veggies. (Slow cooker)
+- Monterey Chicken
+  - Chicken breasts topped with a sweet and tangy homemade BBQ sauce, cheddar and bacon. Comes with veggies. (Oven)
+- Cilantro Lime Pork
+  - I love pork and citrus together. This time we throw in some cilantro and cumin and at the end of a long day, you will have amazing tacos ready to eat. Comes with corn tortillas and cheese. (Slow cooker)
+- Ham Balls
+  - My great-aunt’s ham balls brought to you! Nothing is better than an old family recipe and I am so excited to share it with you. Comes with veggies. (Slow cooker)
+- Bacon Cheeseburger Soup
+  - Thick, creamy soup filled with bacon, hamburger, potatoes, and cheese. (Stovetop)
+- Ethan’s Noodles (aka Beef Satay Noodles)
+  - Rice noodles, ground beef and veggies tossed in a peanut sauce. This is my son’s favorite meal. (Stovetop)
+- Pot Roast and Veggies
+  - My Sunday dinner favorite. Flavorful beef and veggies that will have your house smelling great. (Slow cooker)
+- Beef and Pineapple Stir Fry
+  - Beef marinated in pineapple and soy, then cooked with pineapple and veggies. A quick and delicious meal. (Stovetop)
 
 ## December 2019
 
