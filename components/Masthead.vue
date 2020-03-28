@@ -46,7 +46,7 @@
                 >
               </li>
               <li>
-                <nuxt-link :to="{ path: '/', hash: '/Availability/' }"
+                <nuxt-link :to="{ path: '/availability' }"
                   >availability</nuxt-link
                 >
               </li>
