@@ -4,9 +4,9 @@ module.exports = {
   mode: "universal",
   env: {
     instagramProxyBaseUrl:
-      process.env.INSTAGRAM_PROXY_BASE_URL || "https://localhost:8080",
+      process.env.INSTAGRAM_PROXY_BASE_URL || "https://localhost:8080/",
     instagramProxyApiKey: process.env.INSTAGRAM_PROXY_KEY || "local",
-    gistId: process.env.GIST_ID || "df8fef1eaf9d013f5253e5410e518998"
+    gistId: process.env.GIST_ID || "gist"
   },
   /*
    ** Headers of the page
