@@ -36,13 +36,12 @@ export default {
 
 .menu-image {
   flex: 0 0 30%;
-  max-height: 250px;
 }
 
 .menu-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   padding: 15px 0;
 

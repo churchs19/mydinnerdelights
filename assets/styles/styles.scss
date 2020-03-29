@@ -78,31 +78,3 @@
   font-style: italic;
   font-weight: 400;
 }
-
-/*Bottom Footer*/
-.monthly-menu-header {
-  font-family: $base-font-family;
-}
-
-i.fa.fa-external-link {
-  font-size: 16px;
-}
-
-.menu-archive {
-  margin-top: 100px;
-}
-
-.menu-archive h1 {
-  text-align: center;
-}
-
-.menu-archive h2 {
-  font-family: $subheading-font-family;
-  color: $primary-pepper;
-}
-
-.menu-archive {
-  border: 8px solid $primary-olive-green;
-  background-color: $secondary-light;
-  padding: 2vw 5vw 5vw 5vw;
-}

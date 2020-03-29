@@ -28,10 +28,15 @@
         <!-- <% if (config.holiday_sides) { %> <%- partial('_partial/holiday-sides')
         %> <% } %> <% if (config.gifts_in_a_jar) { %> <%-
         partial('_partial/gifts-in-a-jar') %> <% } %> -->
-        <div class="row menu-btn-container">
+        <div
+          class="row menu-btn-container"
+          v-if="blok.archive_link.url || blok.archive_link.cached_url"
+        >
           <div class="col-sm-4 col-sm-offset-4 text-center">
-            <a href="/menu-archive/" class="btn btn-default btn-block"
-              >Previous Menus</a
+            <nuxt-link
+              :to="blok.archive_link.url || blok.archive_link.cached_url"
+              class="btn btn-default btn-block"
+              >Previous Menus</nuxt-link
             >
           </div>
         </div>
