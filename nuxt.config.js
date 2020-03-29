@@ -66,8 +66,7 @@ module.exports = {
       },
       { src: "/js/jquery.min.js" },
       { src: "/js/bootstrap.min.js" },
-      { src: "/js/jquery.flexslider.js" },
-      { src: "/js/script.js" }
+      { src: "/js/jquery.flexslider.js" }
     ]
   },
 

@@ -37,23 +37,14 @@ const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
     });
 };
 
-const loadInstagram = function({
-  instagramProxyBaseUrl,
-  instagramProxyKey,
-  gistId
-}) {
-  return fetch(`${instagramProxyBaseUrl}.netlify/functions/feed`, {
-    headers: {
-      Accept: "application/json",
-      "x-api-key": instagramProxyKey,
-      "x-gist-id": gistId
-    }
-  }).then(response => response.json());
-};
-
 export default {
+  computed: {
+    instagram() {
+      return this.$store.state.instagramData;
+    }
+  },
   data() {
-    return { story: { content: {} }, instagram: [] };
+    return { story: { content: {} } };
   },
   mounted() {
     this.$storybridge.on(["input", "published", "change"], event => {
@@ -98,13 +89,9 @@ export default {
       path: path
     });
 
-    const instagramData = await loadInstagram({
-      instagramProxyBaseUrl: context.env.instagramProxyBaseUrl,
-      instagramProxyKey: context.env.instagramProxyApiKey,
-      gistId: context.env.gistId
-    });
-
-    data.instagram = instagramData.slice(0, 8);
+    if (!context.store.state.instagramFetched) {
+      context.store.loadInstagramData();
+    }
 
     return data;
   }

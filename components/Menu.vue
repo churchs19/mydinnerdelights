@@ -42,7 +42,15 @@
 
 <script>
 export default {
-  props: ["blok"]
+  props: ["blok"],
+  mounted() {
+    //Slider
+    $(".flexslider").flexslider({
+      pauseOnAction: true,
+      pauseOnHover: true,
+      animation: "slide"
+    });
+  }
 };
 </script>
 

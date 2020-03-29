@@ -66,7 +66,14 @@
 
 <script>
 export default {
-  props: ["blok"]
+  props: ["blok"],
+  mounted() {
+    $("#main-nav").affix({
+      offset: {
+        top: $("header").height()
+      }
+    });
+  }
 };
 </script>
 
