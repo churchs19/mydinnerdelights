@@ -47,3 +47,13 @@
     border-color: $primary-pepper;
   }
 }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: $secondary-light;
+  text-transform: uppercase;
+  background-color: $primary-olive-green;
+  border-color: $primary-olive-green;
+}

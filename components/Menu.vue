@@ -30,7 +30,7 @@
         partial('_partial/gifts-in-a-jar') %> <% } %> -->
         <div class="row menu-btn-container">
           <div class="col-sm-4 col-sm-offset-4 text-center">
-            <a href="/Menu-Archive/" class="btn btn-default btn-block"
+            <a href="/menu-archive/" class="btn btn-default btn-block"
               >Previous Menus</a
             >
           </div>
@@ -108,59 +108,9 @@ export default {
   }
 }
 
-.menu-image {
-  flex: 0 0 30%;
-  max-height: 250px;
-}
-
-.menu-list {
-  padding-left: 0;
-
-  li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 0;
-
-    h4 {
-      font-family: $subheading-font-family;
-      font-size: 26px;
-      color: $primary-olive-green;
-    }
-  }
-}
-
 @media (min-width: 768px) {
   .menu-container {
     padding: 15px;
-  }
-
-  .menu-list {
-    li {
-      flex-direction: row;
-      justify-content: flex-start;
-
-      div {
-        flex: 1 1 auto;
-      }
-
-      .menu-image,
-      .menu-image-placeholder {
-        margin-right: 20px;
-      }
-
-      &:nth-child(2n) {
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-
-        .menu-image,
-        .menu-image-placeholder {
-          margin-left: 20px;
-          margin-right: 0;
-        }
-      }
-    }
   }
 }
 </style>

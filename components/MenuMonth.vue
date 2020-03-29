@@ -1,15 +1,13 @@
 <template>
-  <li v-editable="blok">
+  <div v-editable="blok">
     <h3 class="subheading">{{ blok.title }}</h3>
 
     <ul class="menu-list">
-      <blok-menu-item
-        v-for="(item, index) in blok.items"
-        :key="index"
-        :blok="item"
-      ></blok-menu-item>
+      <li v-for="(item, index) in blok.items" :key="index">
+        <blok-menu-item :blok="item" :index="index"></blok-menu-item>
+      </li>
     </ul>
-  </li>
+  </div>
 </template>
 
 <script>
@@ -17,3 +15,13 @@ export default {
   props: ["blok"]
 };
 </script>
+
+<style lang="scss">
+.menu-list {
+  padding-left: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+</style>
