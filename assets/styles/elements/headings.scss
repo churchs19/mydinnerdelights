@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  color: $primary-eggplant;
+  line-height: 1.3;
+}
+
+.subheading {
+  color: $primary-pepper;
+  font-family: $subheading-font-family;
+}
