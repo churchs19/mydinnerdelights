@@ -2,10 +2,11 @@
   "@context": "http://schema.org",
   "@type": "FoodEstablishment",
   "image": [
-    "https://www.mydinnerdelights.com/Menu-Images/2018-09/web_Squash%20and%20Quinoa%20Soup.JPG",
-    "https://www.mydinnerdelights.com/Menu-Images/2018-09/web_Balsamic%20Chicken%20and%20Veggies.JPG",
-    "https://www.mydinnerdelights.com/Menu-Images/2018-10/web_BBQ%20Bacon%20Onion%20Bombs.JPG",
-    "https://www.mydinnerdelights.com/Menu-Images/2018-10/web_BBQ%20Tacos.JPG"
+    "https://res.cloudinary.com/dinner-delights/image/upload/v1585497102/Menu%20Images/Ham_Balls_ddgagf.jpg",
+    "https://res.cloudinary.com/dinner-delights/image/upload/v1585496936/Menu%20Images/Thai_Pork_Tacos_sbe2hy.jpg",
+    "https://res.cloudinary.com/dinner-delights/image/upload/v1585496742/Menu%20Images/Meatball_Parmesan_m29cfp.jpg",
+    "https://res.cloudinary.com/dinner-delights/image/upload/v1584293997/Menu%20Images/Greek_Meatballs_gk6nwn.jpg",
+    "https://res.cloudinary.com/dinner-delights/image/upload/v1585496546/Menu%20Images/Pork_Egg_Roll_Bowl_zqlyoq.jpg"
   ],
   "@id": "https://mydinnerdelights.com",
   "name": "Dinner Delights",

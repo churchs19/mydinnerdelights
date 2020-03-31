@@ -12,7 +12,6 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: pkg.description,
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -61,7 +60,7 @@ module.exports = {
     ],
     script: [
       {
-        src: "~/assets/data/structured-data.json",
+        src: "/data/structured-data.json",
         type: "application/ld+json"
       },
       { src: "/js/jquery.min.js" },
@@ -97,8 +96,34 @@ module.exports = {
     [
       "storyblok-nuxt",
       { accessToken: "63BpkhFQebg7Q4rAIaFXsgtt", cacheProvider: "memory" }
+    ],
+    "@nuxtjs/sitemap",
+    [
+      "nuxt-social-meta",
+      {
+        url: "https://mydinnerdelights.com",
+        title: "Personal Chef in Des Moines, Iowa | Dinner Delights",
+        description:
+          "Dinner Delights offers personal chef services in central Iowa to meet any budget or needs. Meal selections are fully-customized to your taste and dietary needs.",
+        img: "/android-chrome-512x512.png",
+        locale: "en_US",
+        themeColor: "#602650"
+      }
     ]
   ],
+
+  buildModules: [
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-74778051-2"
+      }
+    ]
+  ],
+
+  sitemap: {
+    hostname: "https://mydinnerdelights.com"
+  },
 
   /*
    ** Router middleware

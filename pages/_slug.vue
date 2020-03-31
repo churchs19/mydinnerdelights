@@ -10,6 +10,8 @@
 </template>
 
 <script>
+const pkg = require("../package");
+
 const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
   return api
     .get(`cdn/stories/${path}`, {
@@ -84,6 +86,20 @@ export default {
     });
 
     return data;
+  },
+  head() {
+    const baseTitle = pkg.description;
+    return {
+      title: `${this.story.name} | ${baseTitle}`,
+      meta: [
+        {
+          hid: "og-title",
+          property: "og:title",
+          content: `${this.story.name} | ${baseTitle}`
+        }
+        // other meta
+      ]
+    };
   }
 };
 </script>

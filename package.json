@@ -10,13 +10,16 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.1.0",
     "cloudinary-vue": "^1.0.0",
     "cross-env": "^5.2.0",
     "moment": "^2.24.0",
     "nuxt": "^2.0.0",
+    "nuxt-social-meta": "0.0.1",
     "storyblok-nuxt": "1.0.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.2.3",
     "css-loader": "^3.4.2",
     "node-sass": "^4.13.1",
     "nodemon": "^1.11.0",
