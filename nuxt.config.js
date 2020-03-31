@@ -97,7 +97,7 @@ module.exports = {
       "storyblok-nuxt",
       { accessToken: "63BpkhFQebg7Q4rAIaFXsgtt", cacheProvider: "memory" }
     ],
-    "@nuxtjs/sitemap",
+    // "@nuxtjs/sitemap",
     [
       "nuxt-social-meta",
       {
@@ -121,9 +121,9 @@ module.exports = {
     ]
   ],
 
-  sitemap: {
-    hostname: "https://mydinnerdelights.com"
-  },
+  // sitemap: {
+  //   hostname: "https://mydinnerdelights.com"
+  // },
 
   /*
    ** Router middleware

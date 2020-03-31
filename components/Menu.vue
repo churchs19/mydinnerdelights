@@ -34,7 +34,7 @@
         >
           <div class="col-sm-4 col-sm-offset-4 text-center">
             <nuxt-link
-              :to="blok.archive_link.url || blok.archive_link.cached_url"
+              :to="`/${blok.archive_link.url || blok.archive_link.cached_url}`"
               class="btn btn-default btn-block"
               >Previous Menus</nuxt-link
             >

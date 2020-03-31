@@ -3,13 +3,13 @@
     <Masthead></Masthead>
     <div class="nav-buttons">
       <nuxt-link
-        :to="blok.previous_month.url || blok.previous_month.cached_url"
+        :to="`/${blok.previous_month.url || blok.previous_month.cached_url}`"
         class="btn btn-primary"
         v-if="blok.previous_month.url || blok.previous_month.cached_url"
         >PREVIOUS MONTH</nuxt-link
       >
       <nuxt-link
-        :to="blok.next_month.url || blok.next_month.cached_url"
+        :to="`/${blok.next_month.url || blok.next_month.cached_url}`"
         class="btn btn-primary"
         v-if="blok.next_month.url || blok.next_month.cached_url"
         >NEXT MONTH</nuxt-link
@@ -33,15 +33,15 @@
     </div>
     <div class="nav-buttons">
       <nuxt-link
-        :to="blok.previous_month.url"
+        :to="`/${blok.previous_month.url || blok.previous_month.cached_url}`"
         class="btn btn-primary"
-        v-if="blok.previous_month.url"
+        v-if="blok.previous_month.url || blok.previous_month.cached_url"
         >PREVIOUS MONTH</nuxt-link
       >
       <nuxt-link
-        :to="blok.next_month.url"
+        :to="`/${blok.next_month.url || blok.next_month.cached_url}`"
         class="btn btn-primary"
-        v-if="blok.next_month.url"
+        v-if="blok.next_month.url || blok.next_month.cached_url"
         >NEXT MONTH</nuxt-link
       >
     </div>
@@ -74,5 +74,9 @@ export default {
   align-items: center;
 
   margin: 16px 0;
+
+  .btn {
+    margin: 0 16px;
+  }
 }
 </style>
