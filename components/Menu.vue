@@ -13,16 +13,25 @@
         </div>
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <div id="menu-carousel" class="flexslider">
-              <!-- Wrapper for slides -->
-              <ul class="slides">
+            <!-- <div id="menu-carousel" class="flexslider"> -->
+            <!-- Wrapper for slides -->
+            <!-- <ul class="slides">
                 <blok-menu-month
                   v-for="(month, index) in blok.months"
                   :key="index"
                   :blok="month"
                 ></blok-menu-month>
-              </ul>
-            </div>
+              </ul> -->
+            <!-- </div> -->
+            <vue-tabs>
+              <v-tab
+                v-for="(month, index) in blok.months"
+                :key="index"
+                :title="month.title"
+              >
+                <blok-menu-month :blok="month"></blok-menu-month>
+              </v-tab>
+            </vue-tabs>
           </div>
         </div>
         <!-- <% if (config.holiday_sides) { %> <%- partial('_partial/holiday-sides')
@@ -46,16 +55,15 @@
 </template>
 
 <script>
+import { VueTabs, VTab } from "vue-nav-tabs";
+import "vue-nav-tabs/themes/vue-tabs.css";
+
 export default {
-  props: ["blok"],
-  mounted() {
-    //Slider
-    $(".flexslider").flexslider({
-      pauseOnAction: true,
-      pauseOnHover: true,
-      animation: "slide"
-    });
-  }
+  components: {
+    VueTabs,
+    VTab
+  },
+  props: ["blok"]
 };
 </script>
 
@@ -72,42 +80,32 @@ export default {
   margin-top: 30px;
 }
 
-.flexslider {
-  border: none;
-  background: $secondary-light;
+.vue-tabs {
+  .nav-tabs {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
 
-  .flex-viewport {
-    max-height: unset;
-  }
+    > li {
+      float: none;
 
-  .slides {
-    background: $secondary-light;
-  }
-}
-
-.flex-direction-nav {
-  a,
-  a:before {
-    height: 44px;
-    color: $primary-olive-green;
-  }
-}
-
-.flex-control-paging {
-  li {
-    a {
-      background: #8c9c78;
-      background: rgba(120, 156, 74, 0.5);
-
-      &:hover {
-        background: #809c5d;
-        background: rgba(120, 156, 74, 0.7);
+      > a,
+      > a:focus,
+      > a:hover {
+        border: 2px solid transparent;
+        border-radius: 0;
+        color: $primary-olive-green;
       }
 
-      &.flex-active {
-        background: $primary-olive-green;
-        background: rgba(120, 156, 74, 0.9);
-        cursor: default;
+      &.active {
+        > a,
+        > a:focus,
+        > a:hover {
+          border-color: transparent;
+          border-bottom-color: $primary-eggplant;
+          color: $primary-eggplant;
+          background-color: transparent;
+        }
       }
     }
   }

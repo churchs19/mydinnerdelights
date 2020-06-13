@@ -16,10 +16,13 @@
     "moment": "^2.24.0",
     "nuxt": "^2.0.0",
     "nuxt-social-meta": "0.0.1",
-    "storyblok-nuxt": "1.0.0"
+    "storyblok-nuxt": "1.0.0",
+    "vue-nav-tabs": "^0.5.7"
   },
   "devDependencies": {
+    "@babel/compat-data": "^7.10.1",
     "@nuxtjs/google-analytics": "^2.2.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "css-loader": "^3.4.2",
     "node-sass": "^4.13.1",
     "nodemon": "^1.11.0",
