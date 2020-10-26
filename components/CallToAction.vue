@@ -18,12 +18,7 @@
         </div>
         <div class="row">
           <div class="col-xs-12 text-center">
-            <a
-              :href="blok.cta_link.url"
-              class="btn btn-call-to-action"
-              target="_blank"
-              >{{ blok.cta_label }}</a
-            >
+            <blok-call-to-action-button v-if="blok.button && blok.button.length > 0" :blok="blok.button[0]"></blok-call-to-action-button>
           </div>
         </div>
       </div>
