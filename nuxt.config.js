@@ -1,7 +1,7 @@
 const pkg = require("./package");
 
 module.exports = {
-  mode: "universal",
+  target: "static",
   env: {
     instagramProxyBaseUrl:
       process.env.INSTAGRAM_PROXY_BASE_URL || "https://localhost:8080/",
@@ -179,6 +179,7 @@ module.exports = {
     }
   },
   generate: {
-    dir: "public"
+    dir: "public",
+    routes: ["/terms-of-service", "/privacy-policy"]
   }
 };
