@@ -15,10 +15,12 @@ import CallToAction from "~/components/CallToAction.vue";
 import Masthead from "~/components/Masthead.vue";
 import Instagram from "~/components/Instagram.vue";
 import Availability from "~/components/Availability.vue";
+import RichTextBlok from "~/components/RichTextBlok.vue";
 
 Vue.component("blok-page", Page);
 Vue.component("blok-teaser", Teaser);
 Vue.component("blok-bio", Bio);
+Vue.component("blok-rich-text", RichTextBlok);
 Vue.component("rich-text", Richtext);
 Vue.component("blok-menu", Menu);
 Vue.component("blok-menu-month", MenuMonth);
