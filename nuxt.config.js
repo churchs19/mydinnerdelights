@@ -64,8 +64,7 @@ module.exports = {
         type: "application/ld+json"
       },
       { src: "/js/jquery.min.js" },
-      { src: "/js/bootstrap.min.js" },
-      { src: "/js/jquery.flexslider.js" }
+      { src: "/js/bootstrap.min.js" }
     ]
   },
 
@@ -173,6 +172,7 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
+      config.resolve.alias["vue"] = "vue/dist/vue.common";
       if (ctx.isDev) {
         config.devtool = ctx.isClient ? "source-map" : "inline-source-map";
       }

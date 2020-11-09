@@ -11,9 +11,7 @@
         <h4>
           {{ blok.title }}
         </h4>
-        <p>
-          {{ blok.description }}
-        </p>
+        <rich-text :text="blok.description"></rich-text>
       </div>
     </div>
   </div>
