@@ -42,7 +42,7 @@ const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
 export default {
   computed: {
     instagram() {
-      return this.$store.state.instagramData;
+      return this.$store.state.instagramData ? this.$store.state.instagramData : [];
     }
   },
   data() {

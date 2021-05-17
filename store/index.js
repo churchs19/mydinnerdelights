@@ -37,6 +37,11 @@ export const actions = {
       .then(instagramData => {
         commit("setInstagramData", instagramData.slice(0, 8));
         commit("setInstagramFetched", true);
+      })
+      .catch(reason => {
+        console.log(reason);
+        commit("setInstagramData", []);
+        commit("setInstagramFetched", true);
       });
   }
 };
