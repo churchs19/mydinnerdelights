@@ -33,6 +33,9 @@
                 <nuxt-link :to="{ path: '/', hash: '#about' }">about</nuxt-link>
               </li>
               <li>
+                <nuxt-link :to="{ path: '/faq' }">faq</nuxt-link>
+              </li>
+              <li>
                 <nuxt-link :to="{ path: '/', hash: '#services' }"
                   >services</nuxt-link
                 >
@@ -70,10 +73,10 @@ export default {
   mounted() {
     $("#main-nav").affix({
       offset: {
-        top: $("header").height()
-      }
+        top: $("header").height(),
+      },
     });
-  }
+  },
 };
 </script>
 

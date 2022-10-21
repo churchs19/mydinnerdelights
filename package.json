@@ -10,23 +10,24 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.2.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "cloudinary-vue": "^1.2.4",
-    "cross-env": "^5.2.0",
+    "cross-env": "^7.0.3",
     "moment": "^2.29.4",
     "nuxt": "^2.15.8",
-    "nuxt-social-meta": "0.0.1",
+    "nuxt-social-meta": "^1.0.0",
     "storyblok-nuxt": "1.0.0",
     "v-runtime-template": "^1.10.0",
     "vue-nav-tabs": "^0.5.7"
   },
   "devDependencies": {
-    "@babel/compat-data": "^7.18.13",
+    "@babel/compat-data": "^7.19.0",
     "@nuxtjs/google-analytics": "^2.4.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "css-loader": "^4.2.0",
-    "nodemon": "^1.11.0",
-    "sass": "^1.54.8",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.9",
     "sass-loader": "^10.1.1"
   }
 }

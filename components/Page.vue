@@ -29,7 +29,7 @@ export default {
   props: ["blok", "instagram"],
   components: {
     Masthead,
-    PageFooter
-  }
+    PageFooter,
+  },
 };
 </script>

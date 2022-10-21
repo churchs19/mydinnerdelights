@@ -1,10 +1,14 @@
-  {
-    "include": [
-      "./components/**/*",
-      "./layouts/**/*",
-      "./middleware/**/*",
-      "./pages/**/*",
-      "./plugins/**/*",
-      "./store/**/*"
-    ]
+{
+  "include": [
+    "./app/**/*",
+    "./components/**/*",
+    "./layouts/**/*",
+    "./middleware/**/*",
+    "./pages/**/*",
+    "./plugins/**/*",
+    "./store/**/*"
+  ],
+  "compilerOptions": {
+    "jsx": "preserve"
   }
+}

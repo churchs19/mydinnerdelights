@@ -26,22 +26,22 @@ export const actions = {
     });
   },
   async loadInstagramData({ commit }) {
-    await fetch(`${process.env.instagramProxyBaseUrl}.netlify/functions/feed`, {
-      headers: {
-        Accept: "application/json",
-        "x-api-key": process.env.instagramProxyApiKey,
-        "x-gist-id": process.env.gistId
-      }
-    })
-      .then(response => response.json())
-      .then(instagramData => {
-        commit("setInstagramData", instagramData.slice(0, 8));
-        commit("setInstagramFetched", true);
-      })
-      .catch(reason => {
-        console.log(reason);
+    // await fetch(`${process.env.instagramProxyBaseUrl}.netlify/functions/feed`, {
+    //   headers: {
+    //     Accept: "application/json",
+    //     "x-api-key": process.env.instagramProxyApiKey,
+    //     "x-gist-id": process.env.gistId
+    //   }
+    // })
+    //   .then(response => response.json())
+    //   .then(instagramData => {
+    //     commit("setInstagramData", instagramData.slice(0, 8));
+    //     commit("setInstagramFetched", true);
+    //   })
+    //   .catch(reason => {
+    //     console.log(reason);
         commit("setInstagramData", []);
         commit("setInstagramFetched", true);
-      });
+      // });
   }
 };

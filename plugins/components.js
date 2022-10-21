@@ -17,6 +17,9 @@ import Masthead from "~/components/Masthead.vue";
 import Instagram from "~/components/Instagram.vue";
 import Availability from "~/components/Availability.vue";
 import RichTextBlok from "~/components/RichTextBlok.vue";
+import FaqSection from "~/components/FaqSection.vue";
+import FaqQuestion from "~/components/FaqQuestion.vue";
+import GenericContent from "~/components/GenericContent.vue";
 
 Vue.component("blok-page", Page);
 Vue.component("blok-teaser", Teaser);
@@ -36,3 +39,6 @@ Vue.component("blok-call-to-action-button", CallToActionButton);
 Vue.component("blok-masthead", Masthead);
 Vue.component("blok-instagram", Instagram);
 Vue.component("blok-availability", Availability);
+Vue.component("blok-faq-section", FaqSection);
+Vue.component("blok-faq-question", FaqQuestion);
+Vue.component("blok-generic-content", GenericContent);

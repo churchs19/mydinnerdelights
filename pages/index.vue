@@ -13,27 +13,33 @@
 <script>
 const pkg = require("../package");
 
-const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
+const loadData = function ({
+  api,
+  cacheVersion,
+  errorCallback,
+  version,
+  path,
+}) {
   return api
     .get(`cdn/stories/${path}`, {
       version: version,
-      cv: cacheVersion
+      cv: cacheVersion,
     })
-    .then(res => {
+    .then((res) => {
       return res.data;
     })
-    .catch(res => {
+    .catch((res) => {
       if (!res.response) {
         console.error(res);
         errorCallback({
           statusCode: 404,
-          message: "Failed to receive content form api"
+          message: "Failed to receive content form api",
         });
       } else {
         console.error(res.response.data);
         errorCallback({
           statusCode: res.response.status,
-          message: res.response.data
+          message: res.response.data,
         });
       }
     });
@@ -42,14 +48,16 @@ const loadData = function({ api, cacheVersion, errorCallback, version, path }) {
 export default {
   computed: {
     instagram() {
-      return this.$store.state.instagramData ? this.$store.state.instagramData : [];
-    }
+      return this.$store.state.instagramData
+        ? this.$store.state.instagramData
+        : [];
+    },
   },
   data() {
     return { story: { content: {} } };
   },
   mounted() {
-    this.$storybridge.on(["input", "published", "change"], event => {
+    this.$storybridge.on(["input", "published", "change"], (event) => {
       if (event.action == "input") {
         if (event.story.id === this.story.id) {
           this.story.content = event.story.content;
@@ -88,7 +96,7 @@ export default {
       api: context.app.$storyapi,
       cacheVersion: context.store.state.cacheVersion,
       errorCallback: context.error,
-      path: path
+      path: path,
     });
 
     if (!context.store.state.instagramFetched) {
@@ -102,10 +110,10 @@ export default {
     return {
       title: baseTitle,
       meta: [
-        { hid: "og-title", property: "og:title", content: baseTitle }
+        { hid: "og-title", property: "og:title", content: baseTitle },
         // other meta
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
