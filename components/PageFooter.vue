@@ -45,6 +45,24 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="privacy-policy text-center">
+            <ul class="list-unstyled list-inline">
+              <li>
+                <nuxt-link :to="{ path: '/privacy-policy' }"
+                  >privacy policy</nuxt-link
+                >
+              </li>
+              <li>
+                <nuxt-link :to="{ path: '/terms-of-service' }"
+                  >terms of service</nuxt-link
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -85,12 +103,20 @@ export default {
     opacity: 0.8;
   }
 
-  .footer-right ul > li > a {
-    color: $secondary-dark;
-
-    &:hover {
+  .footer-right,
+  .privacy-policy {
+    ul > li > a {
       color: $secondary-dark;
+
+      &:hover {
+        color: $secondary-dark;
+      }
     }
+  }
+
+  .privacy-policy {
+    margin-top: 10px;
+    font-size: 0.9rem;
   }
 }
 </style>
