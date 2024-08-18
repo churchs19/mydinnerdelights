@@ -1,12 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
-  devtools: { enabled: true },
+  devtools: {
+    enabled: process.env.NUXT_PUBLIC_NODE_ENV === "development" ? true : false,
+  },
+  runtimeConfig: {
+    public: {
+      NODE_ENV: process.env.NODE_ENV,
+    },
+  },
   modules: [
     [
       "@storyblok/nuxt",
       {
-        accessToken: "63BpkhFQebg7Q4rAIaFXsgtt",
+        accessToken: process.env.STORYBLOK_ACCESS_TOKEN,
       },
     ],
   ],
@@ -59,7 +66,21 @@ export default defineNuxtConfig({
         },
         { src: "/js/jquery.min.js" },
         { src: "/js/bootstrap.min.js" },
+        { src: "/js/lodash.js" },
       ],
+    },
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/terms-of-service", "/privacy-policy"],
+    },
+  },
+  hooks: {
+    "vite:extendConfig": (config, { isClient, isServer }) => {
+      if (isClient) {
+        config.resolve.alias.vue = "vue/dist/vue.esm-bundler";
+      }
     },
   },
 });

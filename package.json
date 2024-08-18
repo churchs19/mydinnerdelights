@@ -13,11 +13,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@alvarosabu/storyblok-richtext-vue-renderer": "^0.2.0-next.1",
     "@headlessui/vue": "^1.7.22",
     "@storyblok/nuxt": "^6.0.10",
     "@vueuse/core": "^11.0.0",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "vue": "latest",
+    "vue3-runtime-template": "^1.0.2"
   },
   "devDependencies": {
     "sass-embedded": "^1.77.8"

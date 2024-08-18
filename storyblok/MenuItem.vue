@@ -11,7 +11,7 @@
         <h4>
           {{ blok.title }}
         </h4>
-        <div v-html="description" class="rich-text"></div>
+        <div v-html="description"></div>
       </div>
     </div>
   </div>
@@ -26,7 +26,13 @@ const props = defineProps({
   },
 });
 
-const description = computed(() => renderRichText(props.blok.description));
+const description = computed(() => {
+  if (typeof props.blok.description === "string") {
+    return props.blok.description;
+  }
+  return renderRichText(props.blok.description);
+});
+// const description = computed(() => "");
 </script>
 
 <style lang="scss" scoped>

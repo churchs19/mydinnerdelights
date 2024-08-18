@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "/public"
+  command = "npm run generate"
+  publish = "/.output/public"
 
 [dev]
-  command = "npm run dev"
+  command = "npm run dev-ssl"
   port = 8080
