@@ -1,0 +1,12 @@
+@import "~/assets/styles/variables.scss";
+
+body {
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  position: relative;
+  background-color: $secondary-light;
+  background-image: url("https://res.cloudinary.com/dinner-delights/image/upload/c_limit,f_auto,q_auto:low,w_1000/v1584279687/wood-grain.jpg");
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+}

@@ -1,0 +1,84 @@
+@import "~/assets/styles/variables.scss";
+
+@import "~/assets/styles/elements/fonts.scss";
+@import "~/assets/styles/elements/body.scss";
+@import "~/assets/styles/elements/anchors.scss";
+@import "~/assets/styles/elements/images.scss";
+@import "~/assets/styles/elements/inputs.scss";
+@import "~/assets/styles/elements/headings.scss";
+@import "~/assets/styles/elements/buttons.scss";
+@import "~/assets/styles/elements/sections.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+
+.container {
+  position: relative;
+  z-index: 3;
+}
+
+/*Header*/
+
+/*Top nav left*/
+
+.top-nav {
+  color: #070606;
+  line-height: 40px;
+  border-bottom: 1px solid $primary-olive-green;
+}
+
+/*Top left Menu*/
+
+.top-left {
+  float: left;
+}
+
+.top-left ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.top-left a {
+  color: #070606;
+}
+
+.top-left a:hover {
+  color: $primary-olive-green;
+}
+
+/*Top Right Menu*/
+
+.top-right {
+  float: right;
+}
+
+.top-right p:before {
+  content: "\f041";
+  font-family: "FontAwesome";
+  font-size: 16px;
+  color: $primary-olive-green;
+  margin-right: 10px;
+}
+
+.top-right p {
+  font-family: $base-font-family;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.top-right p > span {
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 400;
+}

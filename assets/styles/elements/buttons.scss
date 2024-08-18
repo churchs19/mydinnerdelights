@@ -1,0 +1,59 @@
+@import "~/assets/styles/variables.scss";
+
+.btn {
+  font-family: $base-font-family;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-transition: background 0.3s linear;
+  -webkit-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+
+.btn:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-default {
+  color: $primary-eggplant;
+  font-weight: 700;
+  font-size: 20px;
+  border-width: 3px;
+  background-color: transparent;
+  border-color: $primary-eggplant;
+  text-shadow: none;
+}
+
+.btn-default:hover,
+.btn-default:active {
+  color: $secondary-light;
+  background-color: $primary-eggplant;
+  border-color: $secondary-light;
+}
+
+.btn-call-to-action {
+  background-color: $primary-pepper;
+  font-weight: 600;
+  color: $secondary-light;
+  border: 3px solid $primary-pepper;
+
+  &:hover {
+    background-color: $secondary-light;
+    color: $primary-pepper;
+    border-color: $primary-pepper;
+  }
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: $secondary-light;
+  text-transform: uppercase;
+  background-color: $primary-olive-green;
+  border-color: $primary-olive-green;
+}
