@@ -1,0 +1,7 @@
+[build]
+  command = "npm run generate"
+  publish = "/dist"
+
+[dev]
+  command = "npm run dev-ssl"
+  port = 8080

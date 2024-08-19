@@ -2,32 +2,24 @@
   "name": "mydinnerdelights-nuxt-storyblok",
   "version": "1.0.0",
   "description": "Personal Chef in Des Moines, Iowa | Dinner Delights",
-  "author": "Shane Church <shane@s-church.net>",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev-ssl": "nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "^2.1.0",
-    "cloudinary-vue": "^1.0.0",
-    "cross-env": "^5.2.0",
-    "moment": "^2.29.4",
-    "nuxt": "^2.1.3",
-    "nuxt-social-meta": "0.0.1",
-    "storyblok-nuxt": "1.0.0",
-    "v-runtime-template": "^1.10.0",
-    "vue-nav-tabs": "^0.5.7"
+    "@headlessui/vue": "^1.7.22",
+    "@storyblok/nuxt": "^6.0.10",
+    "@vueuse/core": "^11.0.0",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
   },
   "devDependencies": {
-    "@babel/compat-data": "^7.10.1",
-    "@nuxtjs/google-analytics": "^2.2.3",
-    "babel-helper-vue-jsx-merge-props": "^2.0.3",
-    "css-loader": "^3.4.2",
-    "sass": "^1.63.6",
-    "nodemon": "^1.11.0",
-    "sass": "^1.61.0",
-    "sass-loader": "^8.0.2"
+    "sass-embedded": "^1.77.8"
   }
 }

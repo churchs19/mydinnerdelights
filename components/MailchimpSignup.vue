@@ -60,16 +60,16 @@
             <div
               class="response"
               id="mce-error-response"
-              style="display:none"
+              style="display: none"
             ></div>
             <div
               class="response"
               id="mce-success-response"
-              style="display:none"
+              style="display: none"
             ></div>
           </div>
           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <div style="position: absolute; left: -5000px" aria-hidden="true">
             <input
               type="text"
               name="b_5177ad8cdfc5f7ac669b7fde5_552fbf4c81"
@@ -89,18 +89,13 @@
         </div>
       </form>
     </div>
-    <script
-      type="text/javascript"
-      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-    ></script>
-    <script type="text/javascript" src="/js/mailchimp.js"></script>
     <!--End mc_embed_signup-->
   </div>
 </template>
 
-<script>
-export default {};
-</script>
+<script setup>
+import { useScriptTag } from "@vueuse/core";
 
-<style>
-</style>
+useScriptTag("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js");
+useScriptTag("/js/mailchimp.js");
+</script>
