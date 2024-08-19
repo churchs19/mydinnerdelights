@@ -1,6 +1,7 @@
 <template>
   <div v-editable="blok">
     <div class="container generic-content">
+      <h1 v-if="blok.title && blok.title.length > 0">{{ blok.title }}</h1>
       <template v-for="blok in blok.body">
         <StoryblokComponent :blok="blok"></StoryblokComponent>
       </template>
@@ -21,7 +22,12 @@ defineProps({ blok: Object });
   padding: 5vw;
   margin: 35px 5px 5px 5px;
   display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+
+  h1 {
+    text-align: center;
+  }
 }
 </style>

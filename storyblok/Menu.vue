@@ -85,6 +85,7 @@ defineProps({ blok: Object });
       border-radius: 0;
       color: $primary-olive-green;
       outline: none;
+      background-color: transparent;
 
       &[data-headlessui-state="selected"] {
         border-bottom-color: $primary-eggplant;
