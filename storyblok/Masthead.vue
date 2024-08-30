@@ -48,7 +48,7 @@
                   >join a party</NuxtLink
                 >
               </li>
-              <!--<li><NuxtLink :to="{ path: '/', hash: '#faq' }">faq</NuxtLink></li>-->
+              <li><NuxtLink :to="{ path: '/faq', hash: '' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
                   >contact</NuxtLink
