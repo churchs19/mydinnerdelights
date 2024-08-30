@@ -38,7 +38,10 @@
                 >
               </li>
               <li>
-                <NuxtLink :to="{ path: '/', hash: '#menu' }">menu</NuxtLink>
+                <!-- <NuxtLink :to="{ path: '/', hash: '#menu' }">menu</NuxtLink> -->
+                <NuxtLink :to="{ path: '/menu-archive/' }"
+                  >menu archive</NuxtLink
+                >
               </li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#join' }"
