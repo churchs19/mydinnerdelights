@@ -3,7 +3,7 @@
     <div class="icon-box">
       <div class="icon-border">
         <img
-          :src="blok.icon"
+          :src="blok.icon.filename"
           height="100"
           width="100"
           alt=""
@@ -15,7 +15,7 @@
     <p class="text">
       {{ blok.description }}
     </p>
-    <div class="price-container">
+    <div class="price-container" v-if="blok.prices">
       <ServicePrice
         v-for="(price, index) in blok.prices"
         :key="index"
