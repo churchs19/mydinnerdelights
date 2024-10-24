@@ -34,8 +34,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/variables.scss";
-
 .cta-content {
   border: 8px solid $primary-olive-green;
   background-color: $secondary-light;

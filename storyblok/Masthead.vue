@@ -77,8 +77,6 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 .navbar {
   margin: 0;
 }

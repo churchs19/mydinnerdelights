@@ -27,8 +27,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/variables.scss";
-
 /* Feature image */
 .feature-image {
   position: relative;

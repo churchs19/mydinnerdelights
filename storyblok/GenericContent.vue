@@ -14,8 +14,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 .generic-content {
   border: 8px solid $primary-olive-green;
   background-color: $secondary-light;

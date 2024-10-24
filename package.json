@@ -1,6 +1,6 @@
 {
   "name": "mydinnerdelights-nuxt-storyblok",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Personal Chef in Des Moines, Iowa | Dinner Delights",
   "private": true,
   "type": "module",
@@ -13,13 +13,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.22",
-    "@storyblok/nuxt": "^6.0.10",
-    "@vueuse/core": "^11.0.3",
-    "nuxt": "^3.13.0",
+    "@headlessui/vue": "^1.7.23",
+    "@storyblok/nuxt": "^6.0.13",
+    "@vueuse/core": "^11.1.0",
+    "nuxt": "^3.13.2",
     "vue": "latest"
   },
   "devDependencies": {
-    "sass-embedded": "^1.77.8"
+    "sass-embedded": "^1.80.4"
   }
 }

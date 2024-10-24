@@ -59,8 +59,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/variables.scss";
-
 .services {
   background-attachment: scroll;
   padding-bottom: 0px;

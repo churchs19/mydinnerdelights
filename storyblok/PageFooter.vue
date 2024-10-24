@@ -78,8 +78,6 @@ const currentYear = computed(() => {
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 #bottom-footer {
   position: relative;
   margin-top: 50px;

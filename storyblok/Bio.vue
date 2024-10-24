@@ -23,8 +23,6 @@ const description = computed(() => renderRichText(props.blok.description));
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 .about-content {
   border: 8px solid $primary-olive-green;
   background-color: $secondary-light;

@@ -1,7 +1,7 @@
-@import "~/assets/styles/variables.scss";
+@use "../variables.scss";
 
 .btn {
-  font-family: $base-font-family;
+  font-family: variables.$base-font-family;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -19,32 +19,32 @@
 }
 
 .btn-default {
-  color: $primary-eggplant;
+  color: variables.$primary-eggplant;
   font-weight: 700;
   font-size: 20px;
   border-width: 3px;
   background-color: transparent;
-  border-color: $primary-eggplant;
+  border-color: variables.$primary-eggplant;
   text-shadow: none;
 }
 
 .btn-default:hover,
 .btn-default:active {
-  color: $secondary-light;
-  background-color: $primary-eggplant;
-  border-color: $secondary-light;
+  color: variables.$secondary-light;
+  background-color: variables.$primary-eggplant;
+  border-color: variables.$secondary-light;
 }
 
 .btn-call-to-action {
-  background-color: $primary-pepper;
+  background-color: variables.$primary-pepper;
   font-weight: 600;
-  color: $secondary-light;
-  border: 3px solid $primary-pepper;
+  color: variables.$secondary-light;
+  border: 3px solid variables.$primary-pepper;
 
   &:hover {
-    background-color: $secondary-light;
-    color: $primary-pepper;
-    border-color: $primary-pepper;
+    background-color: variables.$secondary-light;
+    color: variables.$primary-pepper;
+    border-color: variables.$primary-pepper;
   }
 }
 
@@ -52,8 +52,8 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: $secondary-light;
+  color: variables.$secondary-light;
   text-transform: uppercase;
-  background-color: $primary-olive-green;
-  border-color: $primary-olive-green;
+  background-color: variables.$primary-olive-green;
+  border-color: variables.$primary-olive-green;
 }

@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
   window.fnames = new Array();
   window.ftypes = new Array();
   fnames[1] = "FNAME";
@@ -7,6 +7,8 @@
   ftypes[2] = "text";
   fnames[0] = "EMAIL";
   ftypes[0] = "email";
+  fnames[4] = "SMSPHONE";
+  ftypes[4] = "smsphone";
   fnames[3] = "EVENT";
   ftypes[3] = "text";
 })(jQuery);

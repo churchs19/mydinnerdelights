@@ -30,8 +30,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/variables.scss";
-
 .service-block {
   flex: 1 0 100%;
   display: flex;

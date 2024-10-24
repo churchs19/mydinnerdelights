@@ -28,8 +28,6 @@ const answer = computed(() => renderRichText(props.blok.answer));
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 .faq-question-container {
   display: flex;
   margin-bottom: 1rem;

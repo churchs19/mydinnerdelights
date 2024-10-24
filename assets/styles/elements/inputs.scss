@@ -1,4 +1,4 @@
-@import "~/assets/styles/variables.scss";
+@use "../variables.scss";
 
 .indicates-required,
 label {
@@ -10,11 +10,11 @@ input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea {
-  font-family: $base-font-family;
+  font-family: variables.$base-font-family;
   font-weight: 500;
-  color: $secondary-dark;
-  background-color: $secondary-light;
-  border: 2px solid $secondary-dark;
+  color: variables.$secondary-dark;
+  background-color: variables.$secondary-light;
+  border: 2px solid variables.$secondary-dark;
   padding: 0 15px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -33,6 +33,6 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: $primary-olive-green !important;
+  border-color: variables.$primary-olive-green !important;
   outline: none;
 }

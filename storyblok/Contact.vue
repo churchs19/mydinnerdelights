@@ -52,8 +52,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss">
-@import "~/assets/styles/variables.scss";
-
 .contact {
   .icon {
     width: 26px;

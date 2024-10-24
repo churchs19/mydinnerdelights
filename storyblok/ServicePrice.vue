@@ -11,8 +11,6 @@ defineProps({ blok: Object });
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/variables.scss";
-
 .price {
   flex: 0 0 auto;
   display: flex;

@@ -1,13 +1,13 @@
-@import "~/assets/styles/variables.scss";
+@use "variables.scss";
 
-@import "~/assets/styles/elements/fonts.scss";
-@import "~/assets/styles/elements/body.scss";
-@import "~/assets/styles/elements/anchors.scss";
-@import "~/assets/styles/elements/images.scss";
-@import "~/assets/styles/elements/inputs.scss";
-@import "~/assets/styles/elements/headings.scss";
-@import "~/assets/styles/elements/buttons.scss";
-@import "~/assets/styles/elements/sections.scss";
+@use "elements/fonts.scss";
+@use "elements/body.scss";
+@use "elements/anchors.scss";
+@use "elements/images.scss";
+@use "elements/inputs.scss";
+@use "elements/headings.scss";
+@use "elements/buttons.scss";
+@use "elements/sections.scss";
 
 html {
   scroll-behavior: smooth;
@@ -35,7 +35,7 @@ html {
 .top-nav {
   color: #070606;
   line-height: 40px;
-  border-bottom: 1px solid $primary-olive-green;
+  border-bottom: 1px solid variables.$primary-olive-green;
 }
 
 /*Top left Menu*/
@@ -54,7 +54,7 @@ html {
 }
 
 .top-left a:hover {
-  color: $primary-olive-green;
+  color: variables.$primary-olive-green;
 }
 
 /*Top Right Menu*/
@@ -67,12 +67,12 @@ html {
   content: "\f041";
   font-family: "FontAwesome";
   font-size: 16px;
-  color: $primary-olive-green;
+  color: variables.$primary-olive-green;
   margin-right: 10px;
 }
 
 .top-right p {
-  font-family: $base-font-family;
+  font-family: variables.$base-font-family;
   font-weight: 700;
   font-size: 14px;
 }
