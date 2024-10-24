@@ -43,11 +43,11 @@
                   >menu archive</NuxtLink
                 >
               </li>
-              <li>
+              <!-- <li>
                 <NuxtLink :to="{ path: '/', hash: '#join' }"
                   >join a party</NuxtLink
                 >
-              </li>
+              </li> -->
               <li><NuxtLink :to="{ path: '/faq', hash: '' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
