@@ -54,6 +54,11 @@
                   >contact</NuxtLink
                 >
               </li>
+              <li>
+                <NuxtLink to="https://shop.mydinnerdelights.com"
+                  >order</NuxtLink
+                >
+              </li>
             </ul>
           </div>
         </div>

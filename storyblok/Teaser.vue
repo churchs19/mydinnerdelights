@@ -12,9 +12,9 @@
         <p>
           <nuxt-link
             class="btn btn-primary btn-lg"
-            :to="{ path: '/', hash: '#contact' }"
+            to="https://shop.mydinnerdelights.com"
             role="button"
-            >Schedule a party today!</nuxt-link
+            >Order your meals today!</nuxt-link
           >
         </p>
       </div>
