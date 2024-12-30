@@ -30,6 +30,11 @@
                 <NuxtLink :to="{ path: '/', hash: '#home' }">home</NuxtLink>
               </li>
               <li>
+                <NuxtLink to="https://shop.mydinnerdelights.com"
+                  >order</NuxtLink
+                >
+              </li>
+              <li>
                 <NuxtLink :to="{ path: '/', hash: '#about' }">about</NuxtLink>
               </li>
               <li>
@@ -52,11 +57,6 @@
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
                   >contact</NuxtLink
-                >
-              </li>
-              <li>
-                <NuxtLink to="https://shop.mydinnerdelights.com"
-                  >order</NuxtLink
                 >
               </li>
             </ul>
