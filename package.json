@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
-    "@storyblok/nuxt": "^6.0.13",
-    "@vueuse/core": "^11.1.0",
-    "nuxt": "^3.13.2",
+    "@storyblok/nuxt": "^6.2.3",
+    "@vueuse/core": "^13.0.0",
+    "nuxt": "^3.16.0",
     "vue": "latest"
   },
   "devDependencies": {
-    "sass-embedded": "^1.80.4"
+    "sass-embedded": "^1.85.1"
   }
 }

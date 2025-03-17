@@ -48,24 +48,12 @@
 </template>
 
 <script setup>
-// import { VueTabs, VTab } from "vue-nav-tabs";
-// import "vue-nav-tabs/themes/vue-tabs.css";
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from "@headlessui/vue";
 
 defineProps({ blok: Object });
 </script>
 
 <style lang="scss">
-.menu-content {
-  border: 8px solid $primary-olive-green;
-  background-color: $secondary-light;
-  padding: 2vw 5vw 5vw 5vw;
-}
-
-.menu-btn-container {
-  margin-top: 30px;
-}
-
 #menu-months-container {
   div[role="tablist"] {
     display: flex;
@@ -90,12 +78,6 @@ defineProps({ blok: Object });
         color: $primary-eggplant;
       }
     }
-  }
-}
-
-@media (min-width: 768px) {
-  .menu-container {
-    padding: 15px;
   }
 }
 </style>

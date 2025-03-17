@@ -7,7 +7,12 @@
         <MenuItem :blok="item" :index="index"></MenuItem>
       </li>
     </ul>
-    <!-- <rich-text v-if="blok.footer && blok.footer.content && blok.footer.content.length > 0" :text="blok.footer"></rich-text> -->
+    <RichText
+      v-if="
+        blok.footer && blok.footer.content && blok.footer.content.length > 0
+      "
+      :blok="blok.footer"
+    ></RichText>
   </div>
 </template>
 

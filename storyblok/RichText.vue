@@ -1,10 +1,6 @@
 <template>
-  <div v-editable="blok" class="section menu">
-    <section class="menu-container">
-      <div class="container menu-content">
-        <div class="rich-text" v-html="body" />
-      </div>
-    </section>
+  <div v-editable="blok">
+    <div class="rich-text" v-html="body" />
   </div>
 </template>
 

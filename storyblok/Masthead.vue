@@ -42,17 +42,48 @@
                   >services</NuxtLink
                 >
               </li>
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Catering Menus<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <NuxtLink :to="{ path: '/catering/menu' }"
+                      >catering</NuxtLink
+                    >
+                  </li>
+                  <li>
+                    <NuxtLink :to="{ path: '/catering/box-lunches' }"
+                      >box lunches</NuxtLink
+                    >
+                  </li>
+                  <li>
+                    <NuxtLink :to="{ path: '/catering/appetizers' }"
+                      >appetizers</NuxtLink
+                    >
+                  </li>
+                  <li>
+                    <NuxtLink :to="{ path: '/catering/breakfast-and-brunch' }"
+                      >breakfast and brunch</NuxtLink
+                    >
+                  </li>
+                  <li>
+                    <NuxtLink :to="{ path: '/catering/dips' }">dips</NuxtLink>
+                  </li>
+                </ul>
+              </li>
+
               <li>
-                <!-- <NuxtLink :to="{ path: '/', hash: '#menu' }">menu</NuxtLink> -->
                 <NuxtLink :to="{ path: '/menu-archive' }"
                   >menu archive</NuxtLink
                 >
               </li>
-              <!-- <li>
-                <NuxtLink :to="{ path: '/', hash: '#join' }"
-                  >join a party</NuxtLink
-                >
-              </li> -->
               <li><NuxtLink :to="{ path: '/faq', hash: '' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"

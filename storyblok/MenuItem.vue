@@ -11,7 +11,7 @@
         <h4>
           {{ blok.title }}
         </h4>
-        <div v-html="description"></div>
+        <div class="description" v-html="description"></div>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ const description = computed(() => {
 // const description = computed(() => "");
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .menu-image {
   flex: 0 0 30%;
 }
@@ -51,6 +51,17 @@ const description = computed(() => {
     font-family: $subheading-font-family;
     font-size: 26px;
     color: $primary-olive-green;
+  }
+
+  h6 {
+    font-family: $subheading-font-family;
+    color: $primary-pepper;
+  }
+
+  .description {
+    li {
+      list-style-type: disc;
+    }
   }
 }
 
