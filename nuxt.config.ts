@@ -71,6 +71,7 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    preset: "netlify-static",
     prerender: {
       crawlLinks: true,
       routes: ["/terms-of-service", "/privacy-policy"],
