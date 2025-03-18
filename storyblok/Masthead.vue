@@ -79,11 +79,6 @@
                 </ul>
               </li>
 
-              <li>
-                <NuxtLink :to="{ path: '/menu-archive' }"
-                  >menu archive</NuxtLink
-                >
-              </li>
               <li><NuxtLink :to="{ path: '/faq', hash: '' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
