@@ -7,6 +7,11 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       NODE_ENV: process.env.NODE_ENV,
+      scripts: {
+        metaPixel: {
+          id: process.env.NUXT_PUBLIC_SCRIPTS_META_PIXEL_ID,
+        },
+      },
     },
   },
   modules: [
@@ -16,6 +21,7 @@ export default defineNuxtConfig({
         accessToken: process.env.STORYBLOK_ACCESS_TOKEN,
       },
     ],
+    "@nuxt/scripts",
   ],
   css: [
     "~/assets/styles/vendor/bootstrap.css",
@@ -68,6 +74,11 @@ export default defineNuxtConfig({
         { src: "/js/bootstrap.min.js" },
         { src: "/js/lodash.js" },
       ],
+    },
+  },
+  scripts: {
+    registry: {
+      metaPixel: true,
     },
   },
   nitro: {
