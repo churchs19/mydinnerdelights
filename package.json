@@ -4,6 +4,9 @@
   "description": "Personal Chef in Des Moines, Iowa | Dinner Delights",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
