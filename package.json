@@ -16,7 +16,7 @@
     "@headlessui/vue": "^1.7.23",
     "@storyblok/nuxt": "^6.2.3",
     "@vueuse/core": "^13.0.0",
-    "nuxt": "^3.16.0",
+    "nuxt": "^4.1.2",
     "vue": "latest"
   },
   "devDependencies": {
