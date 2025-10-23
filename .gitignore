@@ -25,3 +25,6 @@ logs
 
 # Local certificates
 localhost*.pem
+
+# Local Netlify folder
+.netlify
