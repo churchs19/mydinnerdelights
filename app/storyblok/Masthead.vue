@@ -42,12 +42,6 @@
                   >services</NuxtLink
                 >
               </li>
-              <li>
-                <NuxtLink
-                  to="https://shop.mydinnerdelights.com/collections/the-next-course-culinary-grief-therapy-group"
-                  >The Next Course</NuxtLink
-                >
-              </li>
               <li class="dropdown">
                 <a
                   href="#"
