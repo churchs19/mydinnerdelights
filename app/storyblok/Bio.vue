@@ -29,7 +29,7 @@ const description = computed(() => renderRichText(props.blok.description));
   padding: 5vw;
   margin: 5px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: stretch;
   margin-left: auto;
