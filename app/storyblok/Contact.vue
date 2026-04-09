@@ -21,6 +21,13 @@
             </div>
             <div class="row">
               <div class="col-xs-12">
+                <h4>Hours</h4>
+                <p>Tues - Fri: 10 am - 6 pm</p>
+                <p>Closed Sat - Mon</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
                 <a
                   href="https://www.google.com/maps/place/2713+Beaver+Ave,+Des+Moines,+IA+50310/@41.619469,-93.6747458,17z"
                   target="_blank"
