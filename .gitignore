@@ -25,6 +25,9 @@ logs
 
 # Local certificates
 localhost*.pem
+localhost*.key
+localhost*.crt
 
 # Local Netlify folder
 .netlify
+deno.lock
