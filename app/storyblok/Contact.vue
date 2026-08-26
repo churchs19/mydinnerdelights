@@ -40,8 +40,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <h4>Shop Hours</h4>
-                <p>Tues - Weds: 10 am - 6 pm</p>
-                <p>Thurs - Fri: 10 am - 4 pm</p>
+                <p>Tues - Fri: 10 am - 6 pm</p>
                 <p>Closed Sat - Mon</p>
               </div>
             </div>
