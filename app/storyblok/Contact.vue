@@ -113,6 +113,13 @@ const opensApp = (url) => /^(mailto|tel):/.test(url ?? "");
 
 .contact-container {
   line-height: 2;
+
+  // Soft light backdrop so the text reads over the wood-grain background
+  > .container {
+    background-color: rgba($secondary-light, 0.85);
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 }
 
 #mc-embedded-subscribe {

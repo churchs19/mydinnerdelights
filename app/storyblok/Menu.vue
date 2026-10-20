@@ -70,7 +70,6 @@ defineProps({ blok: Object });
       border: 2px solid transparent;
       border-radius: 0;
       color: $primary-olive-green;
-      outline: none;
       background-color: transparent;
 
       &[data-headlessui-state="selected"] {

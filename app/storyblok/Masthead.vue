@@ -225,7 +225,6 @@ useEventListener("scroll", updateAffix, { passive: true });
         &.nuxt-link-exact-active {
           color: $secondary-dark;
           background: none;
-          outline: none;
         }
       }
     }
