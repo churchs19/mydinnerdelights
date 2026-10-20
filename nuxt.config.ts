@@ -78,6 +78,12 @@ export default defineNuxtConfig({
       },
     },
   },
+  routeRules: {
+    // The availability calendar was retired; send old links to the contact section.
+    // Defined here rather than netlify.toml so it lands in _redirects ahead of
+    // Nitro's /* 404 catch-all, which Netlify would otherwise match first
+    "/availability": { redirect: { to: "/#contact", statusCode: 301 } },
+  },
   nitro: {
     preset: "netlify-static",
     prerender: {

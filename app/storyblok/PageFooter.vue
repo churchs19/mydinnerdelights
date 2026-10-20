@@ -28,11 +28,6 @@
               <li>
                 <NuxtLink :to="{ path: '/catering/menu' }">catering</NuxtLink>
               </li>
-              <li>
-                <NuxtLink :to="{ path: '/availability' }"
-                  >availability</NuxtLink
-                >
-              </li>
               <li><NuxtLink :to="{ path: '/faq' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
