@@ -9,6 +9,19 @@
 @use "elements/buttons.scss";
 @use "elements/sections.scss";
 
+// Keyboard focus ring. :is() lifts specificity to match Bootstrap's
+// .btn:focus / a:focus rules so this wins on source order; the light halo
+// keeps it visible on the olive band and over the hero photo
+:is(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 3px solid $primary-eggplant;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px $secondary-light;
+}
+
+:is(a, button, input, select, textarea, [tabindex]):focus:not(:focus-visible) {
+  outline: none;
+}
+
 html {
   scroll-behavior: smooth;
   // Keeps anchor targets clear of the fixed #main-nav
