@@ -9,10 +9,13 @@
           </div>
         </div>
         <div class="col-md-8">
-          <div class="footer-right visible-md-block visible-lg-block">
-            <ul class="list-unstyled list-inline pull-right">
+          <div class="footer-right">
+            <ul class="list-unstyled list-inline">
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#home' }">home</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="https://shop.mydinnerdelights.com">order</NuxtLink>
               </li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#about' }">about</NuxtLink>
@@ -23,19 +26,14 @@
                 >
               </li>
               <li>
-                <NuxtLink :to="{ path: '/', hash: '#menu' }">menu</NuxtLink>
-              </li>
-              <li>
-                <NuxtLink :to="{ path: '/', hash: '#join' }"
-                  >join a party</NuxtLink
-                >
+                <NuxtLink :to="{ path: '/catering/menu' }">catering</NuxtLink>
               </li>
               <li>
                 <NuxtLink :to="{ path: '/availability' }"
                   >availability</NuxtLink
                 >
               </li>
-              <!--<li><NuxtLink :to="{ path: '/', hash: '#faq' }">faq</NuxtLink></li>-->
+              <li><NuxtLink :to="{ path: '/faq' }">faq</NuxtLink></li>
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#contact' }"
                   >contact</NuxtLink
@@ -109,9 +107,34 @@ const currentYear = computed(() => {
     }
   }
 
+  .footer-left,
+  .footer-right {
+    text-align: center;
+  }
+
+  .footer-right li {
+    padding: 8px;
+  }
+
   .privacy-policy {
     margin-top: 10px;
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #bottom-footer {
+    .footer-left {
+      text-align: left;
+    }
+
+    .footer-right {
+      text-align: right;
+
+      li {
+        padding: 0 5px;
+      }
+    }
   }
 }
 </style>

@@ -21,7 +21,7 @@
       </div>
     </section>
     <div
-      class="service-footer hidden-xs"
+      class="service-footer"
       v-if="
         blok.footer_text ||
         (blok.footer_call_to_action && blok.footer_call_to_action_link)
@@ -107,9 +107,13 @@ defineProps({ blok: Object });
     }
   }
 
+  .service-footer-left,
   .service-footer-right {
-    float: right;
-    line-height: 80px;
+    text-align: center;
+  }
+
+  .service-footer-right {
+    margin-top: 10px;
 
     .btn {
       background-color: $primary-pepper;
@@ -122,6 +126,20 @@ defineProps({ blok: Object });
         color: $primary-pepper;
         border-color: $secondary-light;
       }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .services {
+    .service-footer-left {
+      text-align: left;
+    }
+
+    .service-footer-right {
+      float: right;
+      line-height: 80px;
+      margin-top: 0;
     }
   }
 }

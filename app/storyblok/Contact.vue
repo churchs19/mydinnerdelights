@@ -11,7 +11,10 @@
             </div>
             <div class="row" v-for="(link, index) in blok.links" :key="index">
               <div class="col-xs-12">
-                <a :href="link.link.url" target="_blank">
+                <a
+                  :href="link.link.url"
+                  :target="opensApp(link.link.url) ? undefined : '_blank'"
+                >
                   <span class="icon">
                     <i :class="['fa', link.icon]" aria-hidden="true"></i
                   ></span>
@@ -56,6 +59,9 @@
 
 <script setup>
 defineProps({ blok: Object });
+
+// mailto:/tel: hand off to the mail or phone app; a new tab would just sit blank
+const opensApp = (url) => /^(mailto|tel):/.test(url ?? "");
 </script>
 
 <style lang="scss">
