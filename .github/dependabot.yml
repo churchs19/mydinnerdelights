@@ -1,0 +1,32 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      timezone: "America/Chicago"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps"
+    groups:
+      # Nuxt, Vue and the build toolchain move together; one PR keeps the lockfile consistent
+      nuxt-stack:
+        patterns:
+          - "nuxt"
+          - "@nuxt/*"
+          - "vue"
+          - "@vue/*"
+          - "@unhead/*"
+          - "vite"
+          - "nitropack"
+      # Remaining direct dependencies, minor and patch only; majors get their own PR
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+      # Transitive security fixes land as a single PR instead of one per package
+      security:
+        applies-to: security-updates
+        patterns:
+          - "*"
