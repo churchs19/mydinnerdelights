@@ -2,7 +2,7 @@
   <!--top header-->
   <header id="home">
     <!--main-nav-->
-    <div id="main-nav">
+    <div id="main-nav" :class="affixed ? 'affix' : 'affix-top'">
       <nav class="navbar">
         <div class="container">
           <div class="navbar-header">
@@ -100,17 +100,27 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, ref } from "vue";
+import { useEventListener } from "@vueuse/core";
 
 defineProps({ blok: Object });
 
+// Replaces Bootstrap's $.fn.affix, which breaks once Mailchimp's
+// mc-validate.js swaps the global jQuery for one without Bootstrap plugins
+const affixed = ref(false);
+let offsetTop = 0;
+
+const updateAffix = () => {
+  affixed.value = window.scrollY > offsetTop;
+};
+
 onMounted(() => {
-  $("#main-nav").affix({
-    offset: {
-      top: $("header").height(),
-    },
-  });
+  // Measure once, before the nav is fixed and the header collapses
+  offsetTop = document.querySelector("header")?.offsetHeight ?? 0;
+  updateAffix();
 });
+
+useEventListener("scroll", updateAffix, { passive: true });
 </script>
 
 <style lang="scss">
