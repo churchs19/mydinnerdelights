@@ -25,7 +25,6 @@ export default defineNuxtConfig({
   ],
   css: [
     "~/assets/styles/vendor/bootstrap.css",
-    "~/assets/styles/vendor/flexslider.css",
     "~/assets/styles/vendor/font-awesome.css",
     "~/assets/styles/styles.scss",
   ],
@@ -72,7 +71,6 @@ export default defineNuxtConfig({
         },
         { src: "/js/jquery.min.js" },
         { src: "/js/bootstrap.min.js" },
-        { src: "/js/lodash.js" },
       ],
     },
   },
@@ -90,10 +88,6 @@ export default defineNuxtConfig({
   },
   vite: {
     css: {
-      // Vendor CSS still contains IE star hacks (e.g. *height) that LightningCSS rejects
-      lightningcss: {
-        errorRecovery: true,
-      },
       preprocessorOptions: {
         scss: {
           api: "modern-compiler",
