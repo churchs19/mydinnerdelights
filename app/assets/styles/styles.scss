@@ -11,6 +11,8 @@
 
 html {
   scroll-behavior: smooth;
+  // Keeps anchor targets clear of the fixed #main-nav
+  scroll-padding-top: 90px;
 }
 
 .cover {

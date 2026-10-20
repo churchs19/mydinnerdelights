@@ -3,8 +3,10 @@
     <div class="container about-content">
       <div class="headshot">
         <img
-          :src="blok.photo"
+          v-bind="photo"
+          sizes="(min-width: 1200px) 1140px, (min-width: 992px) 940px, 100vw"
           :alt="blok.photo_description"
+          loading="lazy"
           class="img-responsive"
         />
       </div>
@@ -20,6 +22,7 @@
 const props = defineProps({ blok: Object });
 
 const description = computed(() => renderRichText(props.blok.description));
+const photo = computed(() => storyblokImage(props.blok.photo));
 </script>
 
 <style lang="scss">

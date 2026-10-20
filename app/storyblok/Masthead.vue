@@ -1,6 +1,9 @@
 <template>
   <!--top header-->
-  <header id="home">
+  <header
+    id="home"
+    :style="affixed ? { height: `${headerHeight}px` } : undefined"
+  >
     <!--main-nav-->
     <div id="main-nav" :class="affixed ? 'affix' : 'affix-top'">
       <nav class="navbar">
@@ -14,18 +17,22 @@
             </NuxtLink>
             <button
               type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#ftheme"
+              :class="['navbar-toggle', { collapsed: !menuOpen }]"
+              aria-controls="ftheme"
+              :aria-expanded="menuOpen"
+              @click="menuOpen = !menuOpen"
             >
-              <span class="sr-only">Toggle</span>
+              <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
           </div>
-          <div class="navbar-collapse collapse" id="ftheme">
-            <ul class="nav navbar-nav navbar-right">
+          <div
+            :class="['navbar-collapse', 'collapse', { in: menuOpen }]"
+            id="ftheme"
+          >
+            <ul class="nav navbar-nav navbar-right" @click="closeMenuOnLink">
               <li>
                 <NuxtLink :to="{ path: '/', hash: '#home' }">home</NuxtLink>
               </li>
@@ -100,23 +107,42 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref, watch } from "vue";
 import { useEventListener } from "@vueuse/core";
 
 defineProps({ blok: Object });
 
+// Vue-controlled instead of Bootstrap's collapse plugin so the mobile menu
+// closes after a link is tapped, including same-page hash links
+const menuOpen = ref(false);
+
+const closeMenuOnLink = (event) => {
+  const link = event.target.closest("a");
+  if (link && !link.classList.contains("dropdown-toggle")) {
+    menuOpen.value = false;
+  }
+};
+
+const route = useRoute();
+watch(
+  () => route.fullPath,
+  () => (menuOpen.value = false)
+);
+
 // Replaces Bootstrap's $.fn.affix, which breaks once Mailchimp's
 // mc-validate.js swaps the global jQuery for one without Bootstrap plugins
 const affixed = ref(false);
-let offsetTop = 0;
+const headerHeight = ref(0);
 
 const updateAffix = () => {
-  affixed.value = window.scrollY > offsetTop;
+  affixed.value = window.scrollY > headerHeight.value;
 };
 
 onMounted(() => {
-  // Measure once, before the nav is fixed and the header collapses
-  offsetTop = document.querySelector("header")?.offsetHeight ?? 0;
+  // Measure once, before the nav is fixed. The header keeps this height while
+  // the nav is fixed so content doesn't jump up, which also threw off the
+  // scroll position of anchor links that crossed the affix threshold
+  headerHeight.value = document.querySelector("header")?.offsetHeight ?? 0;
   updateAffix();
 });
 

@@ -3,8 +3,10 @@
     <div :class="{ 'menu-item': true, 'menu-item-reverse': index % 2 === 1 }">
       <img
         v-if="blok.image"
-        :src="blok.image"
+        v-bind="image"
+        sizes="(min-width: 768px) 30vw, 100vw"
         :alt="blok.title"
+        loading="lazy"
         class="menu-image"
       />
       <div>
@@ -32,6 +34,8 @@ const description = computed(() => {
   }
   return renderRichText(props.blok.description);
 });
+
+const image = computed(() => storyblokImage(props.blok.image));
 // const description = computed(() => "");
 </script>
 
