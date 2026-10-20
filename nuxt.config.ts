@@ -88,15 +88,12 @@ export default defineNuxtConfig({
       routes: ["/terms-of-service", "/privacy-policy"],
     },
   },
-  hooks: {
-    "vite:extendConfig": (config, { isClient, isServer }) => {
-      if (isClient) {
-        config.resolve.alias.vue = "vue/dist/vue.esm-bundler";
-      }
-    },
-  },
   vite: {
     css: {
+      // Vendor CSS still contains IE star hacks (e.g. *height) that LightningCSS rejects
+      lightningcss: {
+        errorRecovery: true,
+      },
       preprocessorOptions: {
         scss: {
           api: "modern-compiler",
