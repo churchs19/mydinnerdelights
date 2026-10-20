@@ -7,11 +7,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       NODE_ENV: process.env.NODE_ENV,
-      scripts: {
-        metaPixel: {
-          id: process.env.NUXT_PUBLIC_SCRIPTS_META_PIXEL_ID,
-        },
-      },
     },
   },
   modules: [
@@ -76,7 +71,11 @@ export default defineNuxtConfig({
   },
   scripts: {
     registry: {
-      metaPixel: true,
+      // ID comes from NUXT_PUBLIC_SCRIPTS_META_PIXEL_ID; load from Facebook rather than bundling a build-time copy
+      metaPixel: {
+        trigger: "onNuxtReady",
+        bundle: false,
+      },
     },
   },
   nitro: {
