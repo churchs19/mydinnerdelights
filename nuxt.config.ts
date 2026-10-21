@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import structuredData from "./app/data/structured-data.json" with { type: "json" };
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: {
@@ -31,9 +33,15 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: "",
+        },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Open+Sans&display=swap",
+          href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap",
         },
         {
           rel: "apple-touch-icon",
@@ -60,9 +68,10 @@ export default defineNuxtConfig({
         },
       ],
       script: [
+        // Inlined because search engines don't fetch external JSON-LD files
         {
-          src: "/data/structured-data.json",
           type: "application/ld+json",
+          innerHTML: JSON.stringify(structuredData),
         },
         { src: "/js/jquery.min.js" },
         { src: "/js/bootstrap.min.js" },
@@ -89,6 +98,9 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: ["/terms-of-service", "/privacy-policy"],
+      // Cloudflare email-obfuscation links pasted into CMS content; they 404
+      // here and would otherwise fail the build
+      ignore: ["/cdn-cgi"],
     },
   },
   vite: {

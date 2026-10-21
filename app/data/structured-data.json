@@ -1,5 +1,5 @@
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "FoodEstablishment",
   "image": [
     "https://res.cloudinary.com/dinner-delights/image/upload/v1585497102/Menu%20Images/Ham_Balls_ddgagf.jpg",
@@ -12,24 +12,37 @@
   "name": "Dinner Delights",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "4913 Walnut Dr",
-    "addressLocality": "Pleasant Hill",
+    "streetAddress": "2713 Beaver Avenue",
+    "addressLocality": "Des Moines",
     "addressRegion": "IA",
-    "postalCode": "50327",
+    "postalCode": "50310",
     "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 41.5919657,
-    "longitude": -93.5190599
+    "latitude": 41.619469,
+    "longitude": -93.6747458
   },
   "url": "https://mydinnerdelights.com",
   "logo": "https://mydinnerdelights.com/android-chrome-512x512.png",
   "telephone": "+15156355517",
-  "menu": "https://www.mydinnerdelights.com/#menu",
+  "menu": "https://www.mydinnerdelights.com/catering/menu",
   "acceptsReservations": "True",
   "sameAs": [
     "https://www.facebook.com/MyDinnerDelights",
     "https://www.instagram.com/mydinnerdelights"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "18:00"
+    }
   ]
 }
